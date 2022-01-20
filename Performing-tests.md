@@ -9,3 +9,5 @@ For this method of attack we would recommend a reading from Robert Heathon on ho
 
 ## Criterias for secure IoT-device
 * HTTPS
+* Encrypted data
+* Non-sensitive data
