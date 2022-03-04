@@ -6,7 +6,7 @@
 | ----------- | ----------- |
 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | Title |
 | The process is based on consent (GDPR 7) | Text |
-| the user knows what they accepts, the possibility to know what consent means regarding the setup of the user | test2 |
+| The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | test2 |
 | The default value for a decision follows best practice for security. (ETSI 5.12) | text |
 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | text |
 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | text |
