@@ -18,8 +18,7 @@
 | Criterias | Method |
 | ----------- | ----------- |
 | Device look for and initiate updates when first enabled if not latest version. (Kjapp oppsummering av ETSI 5.) | text |
-| Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app
-(ETSI 5.3). | text |
+| Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | text |
 
 
 ## Authentication
