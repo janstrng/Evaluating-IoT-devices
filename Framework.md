@@ -57,8 +57,7 @@
 | The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | text |
 | The DUT can be isolated (ETSI 5.3) | text |
 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | text |
-| User notification notify the administrator  about new/unauthorized changes in device software
-(ETSI 5.7) | text |
+| User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | text |
 
 ## Interfaces
 | Criterias | Method |
