@@ -1,9 +1,11 @@
 # Framework for evaluating IoT-devices
 
-##Definitions of Values
+## Definitions of Values
 
+##
 
-## Set up user
+## Criterias
+### Set up user
 
 | Criterias | value of consequence |
 | ----------- | ----------- |
@@ -17,14 +19,14 @@
 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 5 |
 
 
-## Registration
+### Registration
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | Device look for and initiate updates when first enabled if not latest version. | 4 |
 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 |
 
 
-## Authentication
+### Authentication
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 5 |
@@ -34,7 +36,7 @@
 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 5 |
 
  
-## Defaults 
+### Defaults 
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | Default password is generated uniquely per device. (ETSI 5.1) | 5 |
@@ -42,7 +44,7 @@
 | Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 4 |
 
 
-## Updating
+### Updating
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 |
@@ -51,7 +53,7 @@
 | The user is able to check  the software version for the devis. | 2 |
 
 
-## Security
+### Security
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | Device is made of adequate physical material for its use case (enisa) | 1 |
@@ -64,7 +66,7 @@
 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 |
 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 4 |
 
-## Interfaces
+### Interfaces
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |
@@ -72,7 +74,7 @@
 | All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 |
 
 
-## Erasure
+### Erasure
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | User have the right to require erasure of their personal data (GDPR 17) | 5 |
@@ -83,13 +85,13 @@
 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 |
 
 
-## Manipulation of data
+### Manipulation of data
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 5 |
 
 
-## Personal data
+### Personal data
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | All decisions about the user's personal data are based on consent.(GDPR 7) | 5 |
@@ -103,7 +105,7 @@
 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |
 
 
-## Disclosing of vulnerability
+### Disclosing of vulnerability
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 5 |
