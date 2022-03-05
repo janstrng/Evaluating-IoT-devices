@@ -16,7 +16,7 @@ TODO's:
 0. 
 1. 
 2. 
-## Criterias
+## Tests
 ### Set up user
 
 | Criterias | value of consequence |
