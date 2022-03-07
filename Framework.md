@@ -3,6 +3,10 @@ TODO's:
 - Include consequences regarding GDPR to the definition of consequences.
 - definition of values of implementation
 
+## Scope of framework
+
+## Further work
+
 ## Definitions of Values
 
 ### Value of consequence (1-5)
@@ -139,6 +143,8 @@ The criteria makes a user friendly environment, where, if not fulfilled, can lea
 3. devide x with 412 (maximum sum) and multiply with 100 to get a 100-point-system.
 
 ## Interpretation
+
+The lower score, the more secure the device is considered.
 
 - Green:
 - Orange:
