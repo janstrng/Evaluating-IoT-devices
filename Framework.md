@@ -134,7 +134,7 @@ TODO's:
 
 - x / 412
 
-3. devide x with 412 (maximum sum) and multiply with 100 to get a
+3. devide x with 412 (maximum sum) and multiply with 100 to get a 100-point-system.
 
 ## Interpretation
 
