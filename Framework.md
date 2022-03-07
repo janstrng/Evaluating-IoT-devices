@@ -18,7 +18,7 @@ The criteria makes a user friendly environment, where, if not fulfilled, can lea
 The criteria makes a user friendly environment, where, if not fulfilled, can lead to confusion between customer and the company on security-related situations
 5. Critical consequences, this aspect of the device is considered unsafe if not implemented. The criteria is critical for the use, and security of the device and can not be in use before the criteria is used. No implementation of criteria could lead to all data going astray.
 
-## Value of implementation (0-2)
+### Value of implementation (0-2)
 0. Criteria has been taken into consideration and implemented with no indication that it does not follow best practice or with flaws.
 1. Criteria has been implemented with flaws. Feature is not complete and is missing a core functionality or does not follow best practice.
 2. Criteria has not been taken into consideration and is missing this feature or has been implemented badly to an extent that it does not fulfill its function.
