@@ -45,7 +45,7 @@ The criteria makes a user friendly environment, where, if not fulfilled, can lea
 | Criterias | value of consequence |
 | ----------- | ----------- |
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 5 |
-| Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. (ETSI 5.1) </li></ul> | 5 |
+| Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 5 |
 | Passwords are stored according to the minimum required security practice. | 5 |
 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 5 |
 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 5 |
