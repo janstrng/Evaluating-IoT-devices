@@ -12,7 +12,7 @@ TODO's:
 The criteria makes a user friendly environment, where, if not fulfilled, can lead to confusion between customer and the company.
 4. Bad consequences, The criteria is important for the device, but not critical. No implementation of the criteria could open up the device for potential attacks, loss of confidentiality and integrity. A consequences of this would be personal data going astray.
 The criteria makes a user friendly environment, where, if not fulfilled, can lead to confusion between customer and the company on security-related situations
-5. Critical consequences, this aspect of the device is considered unsafe if not implemented. The criteria is critical for the use, and security of the device and can not be in use before the criteria is used. No implementation could lead to all data going astray.
+5. Critical consequences, this aspect of the device is considered unsafe if not implemented. The criteria is critical for the use, and security of the device and can not be in use before the criteria is used. No implementation of criteria could lead to all data going astray.
 
 ## Value of implementation (0-2)
 0. Criteria has been taken into consideration and implemented with no indication that it does not follow best practice or with flaws.
