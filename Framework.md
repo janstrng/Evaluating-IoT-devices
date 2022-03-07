@@ -16,6 +16,7 @@ TODO's:
 0. 
 1. 
 2. 
+
 ## Tests
 ### Set up user
 
@@ -122,3 +123,25 @@ TODO's:
 | ----------- | ----------- |
 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 5 |
 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 5 |
+
+
+## Finale score
+
+1. for every point:
+- consequence * implementation
+
+2. add up every point
+
+- x / 412
+
+3. devide x with 412 (maximum sum) and multiply with 100 to get a
+
+## Interpretation
+
+- Green:
+- Orange:
+- Red: 
+
+| Green | Orange | Red |
+| ----------- | ----------- | ----------- |
+| x/100 | x/100 | x/100 |
