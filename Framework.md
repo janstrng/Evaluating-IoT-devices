@@ -128,7 +128,7 @@ The criteria makes a user friendly environment, where, if not fulfilled, can lea
 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 5 |
 
 
-## Finale score
+## Final score
 
 1. for every point:
 - consequence * implementation
