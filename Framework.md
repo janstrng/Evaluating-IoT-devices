@@ -1,7 +1,4 @@
 # Framework for evaluating IoT-devices
-TODO's: 
-- Include consequences regarding GDPR to the definition of consequences.
-- definition of values of implementation
 
 ## Scope of framework
 
