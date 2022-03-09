@@ -2,6 +2,10 @@
 
 ## Scope of framework
 
+## Limitations
+The framework does not include criteria for implementation of functionalities and will not make use of methods that require specialized knowledge such as code-reviewing and vulnerability-hunting/ research.
+The main focus of the framework are for devices that primarily use Wifi as a method of communication, thus other protocols such as Zigbee and Z-wave have been left out of the scope.
+
 ## Further work
 
 ## Definitions of Values
@@ -16,6 +20,9 @@ The criteria makes a user friendly environment, where, if not fulfilled, can lea
 5. Critical consequences, this aspect of the device is considered unsafe if not implemented. The criteria is critical for the use, and security of the device and can not be in use before the criteria is used. No implementation of criteria could lead to all data going astray.
 
 ### Value of implementation (0-2)
+
+The values of implementation indicate how the criteria has actually been taken into consideration and implemented into the product. This value will be used with the value of consequence to indicate how vulnerable the criteria is.
+
 0. Criteria has been taken into consideration and implemented with no indication that it does not follow best practice or with flaws.
 1. Criteria has been implemented with flaws. Feature is not complete and is missing a core functionality or does not follow best practice.
 2. Criteria has not been taken into consideration and is missing this feature or has been implemented badly to an extent that it does not fulfill its function.
