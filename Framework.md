@@ -1,6 +1,7 @@
 # Framework for evaluating IoT-devices
 
 ## Scope of framework
+The framework does not depict a methodology of how to performe a penetration-test or detect vulnerabilities in IoT-devices. The main goal is to get an indication of how security has been taken into consideration in regards to the end-user. The framework does not replace GDPR or other requirements, but is a suggestion for users and vendors, with limited resources, of how to evaluate the security of an IoT-device.
 
 ## Limitations
 The framework does not include criteria for implementation of functionalities and will not make use of methods that require specialized knowledge such as code-reviewing and vulnerability-hunting/ research.
