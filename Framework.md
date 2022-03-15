@@ -8,8 +8,8 @@ The framework does not include criteria for implementation of functionalities an
 The main focus of the framework are for devices that primarily use Wifi as a method of communication, thus other protocols such as Zigbee and Z-wave have been left out of the scope.
 
 ## Further work
-Include and describe tools and methodology for tests.
-Include practical example of use of the framework
+- Include and describe tools and methodology for tests.
+- Include practical example of use of the framework
 
 ## Definitions of Values
 
