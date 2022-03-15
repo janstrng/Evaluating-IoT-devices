@@ -152,8 +152,8 @@ The values of implementation indicate how the criteria has actually been taken i
 
 The lower score, the more secure the device is considered.
 
-- Green:
-- Orange:
+- Green: Device is, as far as the test goes, considered safe and utilize personal correctly with proper consent.
+- Orange: Device has some weakpoints when it comes to its security or its collection and transmission of data.
 - Red: 
 
 | Green | Orange | Red |
