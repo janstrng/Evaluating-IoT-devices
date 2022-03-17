@@ -11,6 +11,7 @@ The main focus of the framework are for devices that primarily use Wifi as a met
 - Include and describe tools and methodology for tests.
 - Include practical example of use of the framework - Deebot 605
 - Evaluate scoring-system
+- "Forgot my password" functionality
 
 ## Definitions of Values
 
