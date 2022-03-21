@@ -104,3 +104,5 @@
 | ----------- | ----------- | ----------- |
 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 5 | 0 |
 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 5 | TODO |
+
+## Score
