@@ -106,3 +106,4 @@
 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 5 | TODO |
 
 ## Score
+with the use of the old scoring-system, Deebot got 32 points.
