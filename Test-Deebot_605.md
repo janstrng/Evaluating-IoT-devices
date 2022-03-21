@@ -116,4 +116,4 @@
 
 
 ## Score
-with the use of the old scoring-system, Deebot got 32 points.
+with the use of the old scoring-system, Deebot got 32/366 points. -> score: 10/100
