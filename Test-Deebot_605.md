@@ -44,8 +44,8 @@
 | Criterias | value of consequence | value of implementation |
 | ----------- | ----------- | ----------- |
 | Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | 2 - No support period found|
-| Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | TODO |
-| User is notified about security-updates(ETSI 5.3) | 2 | TODO |
+| Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | 2 - No indication that device is patched with security updates |
+| User is notified about security-updates(ETSI 5.3) | 2 | Unknown |
 | The user is able to check  the software version for the devis. | 2 | 0 |
 | Result: | | x/20 |
 
