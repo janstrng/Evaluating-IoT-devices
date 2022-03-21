@@ -11,14 +11,14 @@
 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 3 | 2 - Certain explanations for options are not explained completely and in some cases not visible in the application. |
 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | 0 |
 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 5 | 0 |
-| Result: |  | x/36 |
+| Result: |  | 11/36 |
 
 ### Registration
 | Criterias | value of consequence | value of implementation |
 | ----------- | ----------- | ----------- |
 | Device look for and initiate updates when first enabled if not latest version. | 4 | 2 - No indication that the device was updated when first configured.  TODO: further test to attempt update of device. |
 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 | 0 |
-| Result: | | x/12 |
+| Result: | | 8/12 |
 
 
 ### Authentication
@@ -29,7 +29,7 @@
 | Passwords are stored according to the minimum required security practice. | 5 | TODO |
 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 5 | 0 |
 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 5 | 0 |
-| Result: | | x/50 |
+| Result: | | 0/50 |
  
 ### Defaults 
 | Criterias | value of consequence | value of implementation |
@@ -37,7 +37,7 @@
 | Default password is generated uniquely per device. (ETSI 5.1) | 5 | 0 |
 | Default password does not make use of common patterns or common strings and is not related to public information.\n Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 | 0 |
 | Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 4 | 0 |
-| Result: | | x/26 |
+| Result: | | 0/26 |
 
 
 ### Updating
@@ -47,7 +47,7 @@
 | Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | TODO |
 | User is notified about security-updates(ETSI 5.3) | 2 | Unknown |
 | The user is able to check  the software version for the devis. | 2 | 0 |
-| Result: | | x/20 |
+| Result: | | 8/20 |
 
 
 ### Security
@@ -62,7 +62,7 @@
 | The DUT can be isolated (ETSI 5.3) | 3 | 0 |
 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 | 1 - TODO: look into vulnerabilities and weaknesses within CoAP. |
 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 4 | 0 |
-| Result: | | x/48 |
+| Result: | | 9/48 |
 
 
 ### Interfaces
@@ -71,7 +71,7 @@
 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 0 |
 | Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 | 0 |
 | All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 | 0 |
-| Result: | | x/22 |
+| Result: | | 0/22 |
 
 
 ### Erasure
@@ -83,14 +83,14 @@
 | Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 | 0 |
 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 | TODO |
 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | 0 |
-| Result: | | x/40|
+| Result: | | 0/40|
 
 
 ### Manipulation of data
 | Criterias | value of consequence | value of implementation |
 | ----------- | ----------- | ----------- |
 | The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 5 | 0 |
-| Result: |  | x/10 |
+| Result: |  | 0/10 |
 
 ### Personal data
 | Criterias | value of consequence | value of implementation |
@@ -104,7 +104,7 @@
 | All measurements and data of that type is processed the way the documentation describes.(ETSI  5.14) | 4 | TODO |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 5 | TODO |
 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 0 |
-| Result: | | x/82 |
+| Result: | | 0/82 |
 
 
 ### Disclosing of vulnerability
@@ -112,7 +112,7 @@
 | ----------- | ----------- | ----------- |
 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 5 | 0 |
 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 5 | TODO |
-| Result: | | x/20 |
+| Result: | | 0/20 |
 
 
 ## Score
