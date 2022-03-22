@@ -11,7 +11,7 @@ We have used Nmap to discover the interfaces and ports that are open in the devi
 - sV: Service and Version Detection, scans the corresponding open port and reports what probable service is being used on the port.
 - -p-: scans all 65535 ports
 
-Example:
+Output example:
 ![Screenshot_2022-03-22_11-17-25](https://user-images.githubusercontent.com/98017528/159465247-7c69ae95-9645-47d6-9ed9-79caa135f1f5.png)
 ## Wireshark
 
