@@ -2,6 +2,8 @@
 # Tools used for evaluating device
 
 ## Kali Linux
+“Kali Linux (formerly known as BackTrack Linux) is an open-source, Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali Linux contains several hundred tools targeted towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.” (https://www.kali.org/docs/introduction/what-is-kali-linux/)
+We chose Kali as it would include most tools we would need to perform tests and monitor the devices. Creating a bootable USB with the platform (https://www.kali.org/docs/usb/live-usb-install-with-windows/), we would have easy access to all of our tools without a designated linux machine.
 
 ## Nmap
 “Nmap is a utility for network exploration or security auditing.” (https://www.kali.org/tools/nmap/#nmap)
