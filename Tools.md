@@ -1,6 +1,6 @@
 # Tools used for evaluating device
 
-## Kali
+## Kali linux
 
 ## Nmap
 
