@@ -39,7 +39,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | ----------- | ----------- |
 | The process is based on consent (GDPR 7) | 5 |
 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 5 |
-| The default value for a decision follows best practice for security. (ETSI 5.12) | 2 |
 
 #### General security
 | Criterias | value of consequence |
@@ -51,6 +50,7 @@ The values of implementation indicate how the criteria has actually been taken i
 #### Both
 | Criterias | value of consequence |
 | ----------- | ----------- |
+| The default value for a decision follows best practice for security. (ETSI 5.12) | 2 |
 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 3 |
 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 |
 
