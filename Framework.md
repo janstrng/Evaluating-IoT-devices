@@ -138,6 +138,8 @@ The values of implementation indicate how the criteria has actually been taken i
 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 5 |
 
 ### Further tests that require specialized knowledge
+| Criterias | value of consequence |
+| ----------- | ----------- |
 | If the purpose for processing personal data is no longer valid, then the controller/organization shall stop processing/usage of the data. (GDPR 11) | 5 |
 | All measurements and data of that type is processing the way the documentation describes (ETSI 5.14) | 4 |
 | Software security is appropriate for the task in regards to cryptography(ETSI 5.3) | 3 |
