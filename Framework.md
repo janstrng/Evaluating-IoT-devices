@@ -58,7 +58,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | ----------- | ----------- |
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 5 |
 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 5 |
-| Passwords are stored according to the minimum required security practice. | 5 |
 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 5 |
 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 5 |
 
@@ -68,7 +67,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | ----------- | ----------- |
 | Default password is generated uniquely per device. (ETSI 5.1) | 5 |
 | Default password does not make use of common patterns or common strings and is not related to public information.\n Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 |
-| Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 4 |
 
 
 ### Updating
@@ -86,9 +84,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | Device is made of adequate physical material for its use case (enisa) | 1 |
 | Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 5 |
 | All cryptographics detail are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 5 |
-| Software security is appropriate for the task in regards to cryptography(ETSI 5.3) | 3 |
-| Update mechanism cannot be misused(ETSI 5.3) | 4 |
-| The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | 4 |
 | The DUT can be isolated (ETSI 5.3) | 3 |
 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 |
 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 4 |
@@ -124,12 +119,16 @@ The values of implementation indicate how the criteria has actually been taken i
 | All decisions about the user's personal data are based on consent.(GDPR 7) | 5 |
 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 5 |
 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 5 |
-| If the purpose for processing personal data is no longer valid, then the controller/organization shall stop processing/usage of the data. (GDPR 11) | 5 |
 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 |
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 4 |
-| All measurements and data of that type is processed the way the documentation describes.(ETSI  5.14) | 4 |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 5 |
 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |
+| Data collected is kept within the EU in countries that follow GDPR. | 3 |
+
+
+### Communication
+| Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 5 |
+| Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 5 |
 
 
 ### Disclosing of vulnerability
@@ -138,6 +137,14 @@ The values of implementation indicate how the criteria has actually been taken i
 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 5 |
 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 5 |
 
+### Further tests that require specialized knowledge
+| If the purpose for processing personal data is no longer valid, then the controller/organization shall stop processing/usage of the data. (GDPR 11) | 5 |
+| All measurements and data of that type is processing the way the documentation describes (ETSI 5.14) | 4 |
+| Software security is appropriate for the task in regards to cryptography(ETSI 5.3) | 3 |
+| Update mechanism cannot be misused(ETSI 5.3) | 4 |
+| The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | 4 |
+| Passwords are stored according to the minimum required security practice. | 5 |
+| Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 4 |
 
 ## Final score
 
