@@ -151,6 +151,8 @@ The values of implementation indicate how the criteria has actually been taken i
 3. devide x with 412 (maximum sum) and multiply with 100 to get a 100-point-system.
 
 
+## Annen scoringsystem
+
 1. for every point:
 - Consequence^2 * Implementation^2
 2. Add up every point
