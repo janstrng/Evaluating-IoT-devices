@@ -28,7 +28,7 @@ The values of implementation indicate how the criteria has actually been taken i
 
 ## Tests
 ### Set up user
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | The process is based on consent (GDPR 7) | 5 |
 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 5 |
@@ -40,14 +40,14 @@ The values of implementation indicate how the criteria has actually been taken i
 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 |
 
 ### Registration
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | Device look for and initiate updates when first enabled if not latest version. | 4 |
 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 |
 
 
 ### Authentication
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 5 |
 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 5 |
@@ -56,14 +56,14 @@ The values of implementation indicate how the criteria has actually been taken i
 
  
 ### Defaults 
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | Default password is generated uniquely per device. (ETSI 5.1) | 5 |
 | Default password does not make use of common patterns or common strings and is not related to public information.\n Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 |
 
 
 ### Updating
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 |
 | Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 |
@@ -72,7 +72,7 @@ The values of implementation indicate how the criteria has actually been taken i
 
 
 ### Security
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | Device is made of adequate physical material for its use case (enisa) | 1 |
 | Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 5 |
@@ -82,7 +82,7 @@ The values of implementation indicate how the criteria has actually been taken i
 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 4 |
 
 ### Interfaces
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |
 | Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 |
@@ -90,7 +90,7 @@ The values of implementation indicate how the criteria has actually been taken i
 
 
 ### Erasure
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | User have the right to require erasure of their personal data (GDPR 17) | 5 |
 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 5 |
@@ -101,13 +101,13 @@ The values of implementation indicate how the criteria has actually been taken i
 
 
 ### Manipulation of data
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 5 |
 
 
 ### Personal data
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | All decisions about the user's personal data are based on consent.(GDPR 7) | 5 |
 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 5 |
@@ -120,20 +120,20 @@ The values of implementation indicate how the criteria has actually been taken i
 
 
 ### Communication
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 5 |
 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 5 |
 
 
 ### Disclosing of vulnerability
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 5 |
 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 5 |
 
 ### Further tests that require specialized knowledge
-| Criterias | value of consequence |
+| Criterias | Value of consequence |
 | ----------- | ----------- |
 | If the purpose for processing personal data is no longer valid, then the controller/organization shall stop processing/usage of the data. (GDPR 11) | 5 |
 | All measurements and data of that type is processing the way the documentation describes (ETSI 5.14) | 4 |
