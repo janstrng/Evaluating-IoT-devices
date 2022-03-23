@@ -125,6 +125,8 @@ The values of implementation indicate how the criteria has actually been taken i
 
 
 ### Communication
+| Criterias | value of consequence |
+| ----------- | ----------- |
 | Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 5 |
 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 5 |
 
