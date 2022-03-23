@@ -173,4 +173,4 @@ The lower score, the more secure the device is considered.
 
 | Green | Orange | Red |
 | ----------| ----------- | -----------|
-| x= 0-1 | x= 1-3 | x= 3++ |
+| x= 0-1 | x= 1-2 | x= 2++ |
