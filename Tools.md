@@ -24,6 +24,6 @@ In addition, we were recommended to Wireshark by our supervisor. The method we u
 ## Binwalker
 
 ## Ettercap
-Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis. (https://www.ettercap-project.org/). 
+"Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." (https://www.ettercap-project.org/). 
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
