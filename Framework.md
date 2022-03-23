@@ -150,6 +150,12 @@ The values of implementation indicate how the criteria has actually been taken i
 
 3. devide x with 412 (maximum sum) and multiply with 100 to get a 100-point-system.
 
+
+1. for every point:
+- Consequence^2 * Implementation^2
+2. Add up every point
+3. Devide by 100
+- x/100
 ## Interpretation
 
 The lower score, the more secure the device is considered.
@@ -161,3 +167,8 @@ The lower score, the more secure the device is considered.
 | Green | Orange | Red |
 | ----------- | ----------- | ----------- |
 | x/100 | x/100 | x/100 |
+
+
+| Green | Orange | Red |
+| ----------| ----------- | -----------|
+| x= 0-1 | x= 1-3 | x= 3++ |
