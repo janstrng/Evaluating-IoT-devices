@@ -1,7 +1,7 @@
 ### Set up user
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| The process is based on consent (GDPR 7) | 5 |
+| The process is based on consent (GDPR 7) | 5 | 0 |
 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 5 | 0 |
 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | 0 |
 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | 0 |
