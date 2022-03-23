@@ -7,11 +7,6 @@ The framework does not depict a methodology of how to performe a penetration-tes
 The framework does not include criteria for implementation of functionalities and will not make use of methods that require specialized knowledge such as code-reviewing and vulnerability-hunting/ research.
 The main focus of the framework are for devices that primarily use Wifi as a method of communication, thus other protocols such as Zigbee and Z-wave have been left out of the scope.
 
-## Further work
-- Include and describe tools and methodology for tests.
-- Evaluate and iterate scoring-system
-- "Forgot my password" functionality
-
 ## Definitions of Values
 
 ### Value of consequence (1-5)
