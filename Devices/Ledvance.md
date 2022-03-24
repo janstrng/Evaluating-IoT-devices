@@ -21,7 +21,7 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 5 | 0 |
-| Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 5 | 2 - Can easily bypass limited attempts by restarting the app.|
+| Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 5 | 0 |
 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 5 | 0 |
 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 5 | 1 |
 
@@ -36,7 +36,7 @@
 ### Updating
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | 2 - “D-Link will normally announce the End of Support date for a product at least three (3) months in advance” |
+| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | 0 |
 | Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | 0 |
 | User is notified about security-updates(ETSI 5.3) | 2 | 0 |
 | The user is able to check  the software version for the devis. | 2 | 0 |
@@ -63,12 +63,12 @@
 ### Erasure
 | Criterias | Value of consequence |
 | ----------- | ----------- |
-| User have the right to require erasure of their personal data (GDPR 17) | 5 |
-| When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 5 |
-| A clear confirmation is provided after deletions(ETSI 5.11) | 4 |
-| Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 |
-| Nothing indicates that the user data is not erased(ETSI 5.11) | 4 |
-| Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 |
+| User have the right to require erasure of their personal data (GDPR 17) | 5 | 0 |
+| When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 5 | 0 |
+| A clear confirmation is provided after deletions(ETSI 5.11) | 4 | 0 |
+| Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 | 0 |
+| Nothing indicates that the user data is not erased(ETSI 5.11) | 4 | 0 |
+| Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | 0 |
 
 
 ### Manipulation of data
