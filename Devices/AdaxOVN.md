@@ -1,8 +1,8 @@
 ### Set up user
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| The process is based on consent (GDPR 7) | 5 | TODO |
-| The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 5 | TODO |
+| The process is based on consent (GDPR 7) | 5 | 0 |
+| The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 5 | 0 |
 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | TODO |
 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | TODO |
 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 5 | TODO |
@@ -20,10 +20,10 @@
 ### Authentication
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 5 | TODO |
-| Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 5 | TODO |
-| Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 5 | TODO |
-| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 5 | 1 - password can be '123456789'|
+| Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 5 | 0 |
+| Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 5 | 0 |
+| Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 5 | 0 |
+| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 5 | 2 - only criteria is 6 characters |
 
  
 ### Defaults 
