@@ -56,7 +56,7 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 0 |
-| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 | 1 - There are four open ports on the device, none that are found to be vulnerable but still make up for an attack-vector |
+| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 |  |
 | All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 | 0 |
 
 
@@ -81,13 +81,13 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | All decisions about the user's personal data are based on consent.(GDPR 7) | 5 | 0 |
-| Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 5 | 1 - User must - "specifically requested to be removed from our databases" https://eu.dlink.com/no/nb/privacy |
+| Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 5 |  |
 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 5 | TODO |
 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 | 0 |
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 4 | 0 |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 5 | 0 |
 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 0 |
-| Data collected is kept within the EU in countries that follow GDPR. | 3 | 2 - Data is transmitted to Google and Salesforce located in USA |
+| Data collected is kept within the EU in countries that follow GDPR. | 3 |  |
 
 
 ### Communication
