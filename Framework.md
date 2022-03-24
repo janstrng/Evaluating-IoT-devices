@@ -150,7 +150,7 @@ We have some crierias for a scoring and evaluating the results of the framework:
 3. Every device that gets a score between '' and '' gets valued at "ORANGE"
 4. Every device with a score under '' get valued at "GREEN"
 
-
+## How to score
 1. for every point:
 - consequence * implementation
 
