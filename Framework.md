@@ -143,7 +143,13 @@ The values of implementation indicate how the criteria has actually been taken i
 | Passwords are stored according to the minimum required security practice. | 5 |
 | Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 4 |
 
-## Final score
+## Score
+We have some crierias for a scoring and evaluating the results of the framework:
+1. If a point with 'value of consequence' at '5' and gets value of implementation at '2', the device automaticly gets valued at "Red".
+2. Every device with the final score over '' get valued at "RED"
+3. Every device that gets a score between '' and '' gets valued at "ORANGE"
+4. Every device with a score under '' get valued at "GREEN"
+
 
 1. for every point:
 - consequence * implementation
