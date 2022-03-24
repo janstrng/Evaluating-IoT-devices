@@ -2,6 +2,9 @@
 # Tools used for evaluating devices
 
 ## Testing enviornment
+The environment the tests are performed in are set up using a computer acting as a router using hotspot or proxy. This way we will be able to easily gather the data that is being transported from the devices.  
+A secondary computer running Kali, also connected to the hotspot, acts as an attacker attempting to gain access or control over the device.
+
 
 ## Kali Linux
 ![kali](https://user-images.githubusercontent.com/98017528/159913136-72ea965a-3430-41c5-932d-ab37b8b7999e.png)
