@@ -24,6 +24,8 @@ In addition, we were recommended to Wireshark by our supervisor. The method we u
 ## Burp Suite
 
 ## Binwalker
+"Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images." (https://www.kali.org/tools/binwalk/)  
+Given that the firmware of the device is available, binwalker can be used to inspect the embedded files for hardcoded values associated with authentication. 
 
 ## Ettercap
 "Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." (https://www.ettercap-project.org/). 
