@@ -4,6 +4,7 @@
 ## Testing enviornment
 
 ## Kali Linux
+![kali](https://user-images.githubusercontent.com/98017528/159913136-72ea965a-3430-41c5-932d-ab37b8b7999e.png)
 “Kali Linux (formerly known as BackTrack Linux) is an open-source, Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali Linux contains several hundred tools targeted towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.” (https://www.kali.org/docs/introduction/what-is-kali-linux/)
 We chose Kali as it would include most tools we would need to perform tests and monitor the devices. Creating a bootable USB with the platform (https://www.kali.org/docs/usb/live-usb-install-with-windows/), we would have easy access to all of our tools without a designated linux machine.
 
@@ -31,3 +32,4 @@ Given that the firmware of the device is available, binwalker can be used to ins
 "Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." (https://www.ettercap-project.org/). 
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
+
