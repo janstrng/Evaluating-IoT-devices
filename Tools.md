@@ -21,17 +21,24 @@ We have used Nmap to discover the interfaces and ports that are open in the devi
 
 Output example:
 ![Screenshot_2022-03-22_11-17-25](https://user-images.githubusercontent.com/98017528/159465247-7c69ae95-9645-47d6-9ed9-79caa135f1f5.png)
+
 ## Wireshark
+![wireshark](https://user-images.githubusercontent.com/98017528/159920105-bd147713-f39a-4c41-8339-2ee758d05d3e.png)
 Wireshark is a network protocol analyser. It is used by organizations, governments and educational institutions around the globe. We chose Wireshark because it is one of the most used tools for network analysis in the world, and therefore there would be more tutorials and cookbooks on it.
 
 In addition, we were recommended to Wireshark by our supervisor. The method we used Wireshark was to monitor traffic from the DUT. 	
 ## Burp Suite
+![burp](https://user-images.githubusercontent.com/98017528/159920099-27b1463c-b8e9-4c1c-b910-ae2757342313.png)
+
 
 ## Binwalker
+![binwalk](https://user-images.githubusercontent.com/98017528/159920094-c4717241-90d2-43e0-933a-fbefe1d6b4de.png)
 "Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images." (https://www.kali.org/tools/binwalk/)  
 Given that the firmware of the device is available, binwalker can be used to inspect the embedded files for hardcoded values associated with authentication. 
 
 ## Ettercap
+![ettercap](https://user-images.githubusercontent.com/98017528/159920102-4bead2dd-4aba-403d-a41e-f9cf35d97fcf.png)
+
 "Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." (https://www.ettercap-project.org/). 
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
