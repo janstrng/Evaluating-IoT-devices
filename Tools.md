@@ -22,6 +22,11 @@ We have used Nmap to discover the interfaces and ports that are open in the devi
 Output example:
 ![Screenshot_2022-03-22_11-17-25](https://user-images.githubusercontent.com/98017528/159465247-7c69ae95-9645-47d6-9ed9-79caa135f1f5.png)
 
+After finding what interfaces are open in the device and further research an evaluation of the necessity of the service that is open.
+The evaluation is taken into consideration in point 7 of the framework when evaluating the open interfaces of the device.
+
+
+
 ## Wireshark
 Wireshark is a network protocol analyser. It is used by organizations, governments and educational institutions around the globe. We chose Wireshark because it is one of the most used tools for network analysis in the world, and therefore there would be more tutorials and cookbooks on it.
 ![wireshark](https://user-images.githubusercontent.com/98017528/159920105-bd147713-f39a-4c41-8339-2ee758d05d3e.png)
