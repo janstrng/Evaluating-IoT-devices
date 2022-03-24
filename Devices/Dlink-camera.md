@@ -114,3 +114,4 @@
 | Passwords are stored according to the minimum required security practice. | 5 | |
 | Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 4 | |
 
+## Score
