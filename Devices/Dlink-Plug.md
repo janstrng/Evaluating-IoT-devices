@@ -30,7 +30,7 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Default password is generated uniquely per device. (ETSI 5.1) | 5 | 0 |
-| Default password does not make use of common patterns or common strings and is not related to public information.  Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 | 1 -  |
+| Default password does not make use of common patterns or common strings and is not related to public information.  Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 | 1 |
 
 
 ### Updating
