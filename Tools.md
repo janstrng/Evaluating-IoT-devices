@@ -3,7 +3,7 @@
 
 ## Testing enviornment
 The environment the tests are performed in are set up using a computer acting as a router using it as a hotspot or proxy. This way we will be able to easily gather the data that is being transported from the devices.  
-A secondary computer running Kali, also connected to the hotspot, acts as an attacker attempting to gain access or control over the device.
+A secondary computer running Kali, also connected to the hotspot, acts as an attacker attempting to gain access or control over the device. The reason why we used a hotspot and not a dedicated network was because we used the normal campus network, and therefore it would be difficult to filter traffic.
 
 
 ## Kali Linux
@@ -33,6 +33,7 @@ Wireshark is a network protocol analyser. It is used by organizations, governmen
 
 In addition, we were recommended to Wireshark by our supervisor. The method we used Wireshark was to monitor traffic from the DUT. 	
 ## Burp Suite
+Burp Suite is a graphical tool that lets you test web applications.
 ![burp](https://user-images.githubusercontent.com/98017528/159920099-27b1463c-b8e9-4c1c-b910-ae2757342313.png)
 
 
