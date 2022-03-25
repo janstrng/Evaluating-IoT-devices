@@ -19,10 +19,10 @@ We have used Nmap to discover the interfaces and ports that are open in the devi
 - sV: Service and Version Detection, scans the corresponding open port and reports what probable service is being used on the port.
 - -p-: scans all 65535 ports
 
-Output example:
+Example of output:
 ![Screenshot_2022-03-22_11-17-25](https://user-images.githubusercontent.com/98017528/159465247-7c69ae95-9645-47d6-9ed9-79caa135f1f5.png)
 
-After finding what interfaces are open in the device and further research an evaluation of the necessity of the service that is open.
+After finding what interfaces are open in the device and further research and evaluation of the necessity and security  of the service that is being used.
 The evaluation is taken into consideration when testing the security of the [interfaces](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#interfaces) of the device.
 
 
