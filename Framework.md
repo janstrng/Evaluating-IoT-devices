@@ -3,9 +3,10 @@
 ## Scope of framework
 The framework is a method to evaluate IoT devices aimed for stores providing the products to end-user, enthusiasts of security and private persons wanting to check their devices for security-flaws. The framework is therefore a high-level evaluation, utilizing free and available tools that can be used by people with limited (but some) technical knowledge.  
 The framwork is a part of a Bachelor thesis from NTNU and is based on criterias from "*ETSI TS 103 701; Cyber Security for Consumer Internet of Things: Conformance Assessment of Baseline Requirements*", criterias we found especially relevant from the *General Data Protection Regulation (GDPR)* as well as "*Enisa; Guidelines for securing the Internet of Things*".  
-The framework is not a methodology of how to performe a penetration-test or find new vulnerabilities in IoT-devices. The main goal is to get an indication of how security has been taken into consideration in regards to the end-user by the provider. The framework does not replace GDPR or other requirements, but is a suggestion for users and vendors, with limited resources, of how to evaluate the security of an IoT-device with the use of open source resources and tools.
+
 
 ## Limitations
+The framework is not a methodology of how to performe a penetration-test or find new vulnerabilities in IoT-devices. The main goal is to get an indication of how security has been taken into consideration in regards to the end-user by the provider. The framework does not replace GDPR or other requirements, but is a suggestion for users and vendors, with limited resources, of how to evaluate the security of an IoT-device with the use of open source resources and tools.  
 The framework does not include criteria for implementation of functionalities and will not make use of methods that require specialized knowledge such as code-reviewing and vulnerability-hunting/ research.
 The main focus of the framework are for devices that primarily use Wifi as a method of communication, thus other protocols such as Zigbee and Z-wave have been left out of the scope.
 
