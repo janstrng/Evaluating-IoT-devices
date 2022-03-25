@@ -12,14 +12,13 @@ The main focus of the framework are for devices that primarily use Wifi as a met
 
 ## Definitions of Values
 
-### Value of consequence (1-5)
+### Value of consequence (1-4)
 1. The consequence will have little to no impact on the security of the user. It is not required for the device to make use of the criteria, and the device will not be considered unsafe for use. The user's rights to privacy will not be affected if the criteria is not implemented.
-2. The consequence will have some impact to the security of the user and the users rights to privacy may be affected if the criteria is not implemented. It is recommended but not required for the device to make use of the criteria.
-3. The consequences of deviation from the criterias are moderate. No implementation of the criteria could open the device up for potential attacks and loss of confidentiality and integrity. Consequence does not affect personal-data but could affect other types of data such as metrics.
+2. The consequences of deviation from the criterias are moderate. No implementation of the criteria could open the device up for potential attacks and loss of confidentiality and integrity. Consequence does not affect personal-data but could affect other types of data such as metrics.
 The criteria makes a user friendly environment, where, if not fulfilled, can lead to confusion between customer and the company.
-4. Bad consequences, The criteria is important for the device, but not critical. No implementation of the criteria could open up the device for potential attacks, loss of confidentiality and integrity. A consequences of this would be personal data going astray.
+3. Major consequences, The criteria is important for the device, but not critical. No implementation of the criteria could open up the device for potential attacks, loss of confidentiality and integrity. A consequences of this would be personal data going astray.
 The criteria makes a user friendly environment, where, if not fulfilled, can lead to confusion between customer and the company on security-related situations
-5. Critical consequences, this aspect of the device is considered unsafe if not implemented. The criteria is critical for the use, and security of the device and can not be in use before the criteria is used. No implementation of criteria could lead to all data going astray.
+4. Critical consequences, this aspect of the device is considered unsafe if not implemented. The criteria is critical for the use, and security of the device and can not be in use before the criteria is used. No implementation of criteria could lead to all data going astray.
 
 ### Value of implementation (0-2)
 
