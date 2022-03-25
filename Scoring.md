@@ -9,3 +9,4 @@ The scoring system for the framework have we based on risk analasis that is like
 | 3 | - | | | | | |
 | 4 | - | | | | | |
 | 5 | - | | | | | |
+
