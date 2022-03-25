@@ -145,44 +145,15 @@ The values of implementation indicate how the criteria has actually been taken i
 | Passwords are stored according to the minimum required security practice. | 4 |  |
 | Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | (4) |  |
 
-## Score
-We have some crierias for a scoring and evaluating the results of the framework:
-1. If a point with 'value of consequence' at '5' and gets value of implementation at '2', the device automaticly gets valued at "Red".
-2. Every device with the final score over '' get valued at "RED"
-3. Every device that gets a score between '' and '' gets valued at "ORANGE"
-4. Every device with a score under '' get valued at "GREEN"
 
-## How to score
-1. for every point:
-- consequence * implementation
+### Scoring system
 
-2. add up every point
+The scoring system we choose to use for evaluating the IoT devices will be an qualitative risk-analysis matrix. We have chosen this excact method of evaluting the total som because it will lead to an easy we to also visibly show the evaluation on the different point, and the average. With this method will we be able to put in every point of the framework in to the matrix to see which point of the framework every device needs to improve. 
+ Here is the qualitative risk-analysis matrix we will be using for this scoring.
+ <br>
+![image](https://user-images.githubusercontent.com/76153202/160101973-db7fce4c-ed5f-4b10-a26a-b4276ccd564a.png)
 
-- x / 412
+The qualitative risk-analysis matrix is a diagram we have used before with sucess. A qualitative risk-analysis method of evaluating risk is not an unusal method of showing, an evaluating risk analysis. There are many reasons for this, where some of the key points are that the model identifies the key point of weakness, it shows a clear view of the secuirty status, and priorities possibility vs impact. (Kilde: https://www.safran.com/content/introduction-qualitative-risk-analysis).
 
-3. devide x with 412 (maximum sum) and multiply with 100 to get a 100-point-system.
+For our risk scoring have we chosen 'value of consequence' * 'value of implementation'. We have then concluded that every scor over 12 will be categorized as 'RED', every score under 4 as 'GREEN', and everything between as 'Yellow'. A 'GREEN' score means that there is a low risk of security in that point, a 'YELLOW' score will be a medium risk of security, and a 'RED' score is a high risk in security.
 
-
-## Annen scoringsystem
-
-1. for every point:
-- Consequence^2 * Implementation^2
-2. Add up every point
-3. Devide by 100
-- x/100
-## Interpretation
-
-The lower score, the more secure the device is considered.
-
-- Green: Device is, as far as the test goes, considered safe and utilize personal correctly with proper consent.
-- Orange: Device has some weakpoints when it comes to its security or its collection and transmission of data.
-- Red: Device has some critical wakpoints that could affect the security of its user; or collection of data is imporperly implemented and data is processed wrongly.
-
-| Green | Orange | Red |
-| ----------- | ----------- | ----------- |
-| x/100 | x/100 | x/100 |
-
-
-| Green | Orange | Red |
-| ----------| ----------- | -----------|
-| x= 0-0.5 | x= 0.5-1 | x= 1++ |
