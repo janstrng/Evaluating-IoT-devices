@@ -49,3 +49,5 @@ Given that the firmware of the device is available, binwalker can be used to ins
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
 
 The way we used Ettercap was with arp poisoning, and then use Wireshark and the ARP table.
+
+## SQLi / script injection
