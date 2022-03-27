@@ -49,7 +49,7 @@
 | Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 | 2 - Device make use of CoAP. Traffic does not seem to be encrypted, however it does not seem to be able to make use of the format. More research on CoAP protocol needed. |
 | All cryptographics detail are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 4 | TODO |
 | The DUT can be isolated (ETSI 5.3) | 3 | 1 |
-| The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 | 2-3 CoAP |
+| The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 | 2 CoAP |
 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 3 | 1 |
 
 ### Interfaces
@@ -114,3 +114,8 @@
 | Passwords are stored according to the minimum required security practice. | 4 | |
 | Hardcoded values are documented as such(ETSI 5.4) | 1 | |
 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance.(ETSI 5.4) | 3 | |
+
+##Scoring
+In the matrix show the points that can be improved
+![image](https://user-images.githubusercontent.com/76153202/160279610-df97f0e7-9100-492a-a26b-0a014efbaac6.png)
+
