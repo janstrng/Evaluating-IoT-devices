@@ -116,7 +116,7 @@
 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance(ETSI 5.4) | 3 | |
 
 ## Score
-
+In the matrix below have we just put the points that stands out, and where basic updates can be done:
 ![image](https://user-images.githubusercontent.com/76153202/160277255-c49719b1-6fb0-4864-89dc-975327f6945b.png)
 
 
