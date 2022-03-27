@@ -23,7 +23,7 @@
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 4 | 1 |
 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 3 - Can easily bypass limited attempts by restarting the app.|
 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 | 1 |
-| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 1 |
+| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2 |
 
  
 ### Defaults 
@@ -56,7 +56,7 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 1 |
-| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 3 | 2-3 - There are four open ports on the device, none that are found to be vulnerable but still make up for an attack-vector!!!!!!!| 
+| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 3 | 2 - There are four open ports on the device, none that are found to be vulnerable but still make up for an attack-vector!!!!!!!| 
 | All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 | 1 |
 
 
@@ -81,7 +81,7 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | All decisions about the user's personal data are based on consent.(GDPR 7) | 4 | 1 |
-| Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 | 2-3!!!! - User must - "specifically requested to be removed from our databases" https://eu.dlink.com/no/nb/privacy |
+| Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 | 2 - User must - "specifically requested to be removed from our databases" https://eu.dlink.com/no/nb/privacy |
 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 | TODO |
 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 | 1 |
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 | 1 |
@@ -93,7 +93,7 @@
 ### Communication
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 | 2-3!!! - Response for request of data has yet to be confirmed |
+| Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 | 2 - Response for request of data has yet to be confirmed |
 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | 1 |
 
 
