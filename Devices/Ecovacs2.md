@@ -86,7 +86,7 @@
 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 | 1 |
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 | 1 |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 | TODO |
-| The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | TODO |
+| The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 1 |
 | Data collected is kept within the EU in countries that follow GDPR. | 2 | TODO |
 
 
