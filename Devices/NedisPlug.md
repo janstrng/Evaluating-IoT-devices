@@ -116,3 +116,8 @@
 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 | x |
 | Hardcoded values are documented as such. (ETSI 5.4) | 1 | |
 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance (ETSI 5.4) | 3 | |
+
+## Scoring
+
+### Reasoning for value of implementation
+
