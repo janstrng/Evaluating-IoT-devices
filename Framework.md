@@ -12,21 +12,26 @@ The main focus of the framework are for devices that primarily use Wifi as a met
 
 ## Definitions of Values
 
+![threatActorPyramid](https://user-images.githubusercontent.com/98017528/160378034-b47ff81d-0e7d-4f78-a7e0-0fda6a39c8bf.jpeg)
+
 ### Value of consequence (1-4)
 1. The consequence will have little to no impact on the security of the user. It is not required for the device to make use of the criteria, and the device will not be considered unsafe for use. The user's rights to privacy will not be affected if the criteria is not implemented.
 2. The consequences of deviation from the criterias are moderate. No implementation of the criteria could open the device up for potential attacks and loss of confidentiality and integrity. Consequence does not affect personal-data but could affect other types of data such as metrics.
-The criteria makes a user friendly environment, where, if not fulfilled, can lead to confusion between customer and the company.
-3. Major consequences, The criteria is important for the device, but not critical. No implementation of the criteria could open up the device for potential attacks, loss of confidentiality and integrity. A consequences of this would be personal data going astray.
-The criteria makes a user friendly environment, where, if not fulfilled, can lead to confusion between customer and the company on security-related situations
-4. Critical consequences, this aspect of the device is considered unsafe if not implemented. The criteria is critical for the use, and security of the device and can not be in use before the criteria is used. No implementation of criteria could lead to all data going astray.
+The criteria makes a user friendly environment, where, if not fulfilled, can lead to some confusion between customer and the company.
+3. Major consequences, The criteria is important for the device, but not critical. No implementation of the criteria could open up the device for potential attacks, loss of confidentiality and integrity.
+A consequences of this would be personal data going astray
+The criteria gives the user a friendly environment, where, if not fulfilled, can lead to confusion between customer and the company on security-related situations.
+4. Critical consequences, this aspect of the device is considered unsafe if not implemented. The criteria is critical for the use, and security of the device and can not be in use before the criteria is used. No implementation could lead to all data going astray.
 
-### Value of implementation (0-2)
+### Value of implementation (1-4)
 
 The values of implementation indicate how the criteria has actually been taken into consideration and implemented into the product. This value will be used with the value of consequence to indicate how vulnerable the criteria is.
 
-0. Criteria has been taken into consideration and implemented with no indication that it does not follow best practice or with flaws.
-1. Criteria has been implemented with flaws. Feature is not complete and is missing a core functionality or does not follow best practice.
-2. Criteria has not been taken into consideration and is missing this feature or has been implemented badly to an extent that it does not fulfill its function.
+1. Criteria has been taken into consideration and implemented with no indication that it does not follow best practice or with flaws. Likelihood that criteria is being misused to achieve consequence is very low and only actors with high motivation from tier 5 and 6 can successfully misuse the feature.
+2. Criteria has been implemented with some flaws. Feature is not complete and is missing a core functionality or does not follow best practice. Likelihood of the criteria being misused to achieve consequence is low. The threat actor has to be in tier 3/4 or above to successfully misuse the feature with relative high motivation.
+3. Criteria is barely taken into consideration and is implemented badly with many flaws. Likelihood of misusing the criteria is moderate. Likelihood of the criteria being misused to achieve consequence is moderate. The threat actor has to be in tier 2 or above and have some motivation to successfully misuse the feature.
+4. Criteria has not been taken into consideration and is missing this feature. Likelihood of the criteria being misused to achieve consequence is high. The threat actor has to be in a tier in the pyramid to successfully misuse the feature with no defined motivation.
+
 
 ## Tests
 ### A: Set up user and device
