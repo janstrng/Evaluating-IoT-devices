@@ -12,8 +12,23 @@ The main focus of the framework are for devices that primarily use Wifi as a met
 
 ## Definitions of Values
 
+### Threat actors
 ![threatActorPyramid](https://user-images.githubusercontent.com/98017528/160378034-b47ff81d-0e7d-4f78-a7e0-0fda6a39c8bf.jpeg)  
-(https://www.telenor.com/security-architecture-design-phase-the-concept-of-a-threat-intelligence-driven-defendable-architecture/)
+(https://www.telenor.com/security-architecture-design-phase-the-concept-of-a-threat-intelligence-driven-defendable-architecture/)  
+Defining and identifying the threat-actors we stand up against, we make use of the thret actor pyramid.  
+The pyramid split the actors into six tiers.
+- Tier 1: Script Kiddies and Non-Malicious actors;  
+Have limited capabilities, tools, resources and knowledge. Techniques are usualy gathered from resources on the internet, and may therefore be able to use sophisticated tools to gain access.
+- Tier 2: Criminals, Insider threats;  
+Actor with a maliicous motive to do damage. Mostly limited resorces and numbers, able to make use of known exploits and techniques.
+- Tier 3: Crime groups and hacktivists;  
+Actors that operate in groups and have access to unknown vulnerabilities and exploits. Often political or knowledge-based motives. Has resources to performe Distributed-Denial-of-Service.
+- Tier 4: Organized Crime groups, Cyber Mercenaries;  
+Actors with access to extensive tools and experience. Make use of actions such as ransomware or theft to achive profit. Targets big business-related information and documentation that could be of interest or be sold.
+- Tier 5: State Sponsored;  
+Advanced Persistent Threats that are sponsored by the state and therefore have access to and able to create advanced and sophisticated exploits and vulnerabilities. Usualy targets organization of strategic importance to gain personal and sensitive data.
+- Tier 6: Nations;  
+The most advanced threat-group. Offensive intelligence agencies of a country's cyber military. Capable of developing and creating new exploits and vulnerabilities with a specific target in mind. Often politicaly motivated and perform attacks to perform espionage, theft of intelectual property or political manipulation.
 
 ### Value of consequence (1-4)
 1. The consequence will have little to no impact on the security of the user. It is not required for the device to make use of the criteria, and the device will not be considered unsafe for use. The user's rights to privacy will not be affected if the criteria is not implemented.
@@ -26,7 +41,7 @@ The criteria gives the user a friendly environment, where, if not fulfilled, can
 
 ### Value of implementation (1-4)
 
-The values of implementation indicate how the criteria has actually been taken into consideration and implemented into the product. This value will be used with the value of consequence to indicate how vulnerable the criteria is.
+The values of implementation indicate how the criteria has actually been taken into consideration and implemented into the product. This value will be used with the value of consequence to indicate how vulnerable the criteria is. The value also indicates the likeliness that the feature could be taken advantage of to achieve the level of consequence of the criteria.
 
 1. Criteria has been taken into consideration and implemented with no indication that it does not follow best practice or with flaws. Likelihood that criteria is being misused to achieve consequence is very low and only actors with high motivation from tier 5 and 6 can successfully misuse the feature.
 2. Criteria has been implemented with some flaws. Feature is not complete and is missing a core functionality or does not follow best practice. Likelihood of the criteria being misused to achieve consequence is low. The threat actor has to be in tier 3/4 or above to successfully misuse the feature with relative high motivation.
