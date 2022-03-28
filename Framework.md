@@ -59,8 +59,10 @@ The values of implementation indicate how the criteria has actually been taken i
 | ----------- | ----------- | ----------- | ----------- |
 | B.2.1 | Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 |  |
 | B.2.2 | All cryptographics detail are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 4 |  |
-| B.2.3 | The DUT can be isolated (ETSI 5.3) | 3 |  |
+| B.2.3 | The IoT-device can be isolated (ETSI 5.3) | 3 |  |
 | B.2.4 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 |  |
+| D.1.7 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |  |
+
 
 ### B3: Disclosing of vulnerability
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -73,6 +75,8 @@ The values of implementation indicate how the criteria has actually been taken i
 | ----------- | ----------- | ----------- | ----------- |
 | C.1.1 | Default password is generated uniquely per device. (ETSI 5.1) | 4 |  |
 | C.1.2 | Default password does not make use of common patterns or common strings and is not related to public information. Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 | |
+| D.1.6 | Everything enabled by default is necessary for the device (ETSI 5.6) | 3 |  |
+
 
 ### C2: Erasure
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -107,8 +111,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | D.1.3 | Software updates are automatically and periodically checked and initiated. It is recommended to give the user the ability to manually check and install updates. (ETSI 5.3) | 4 |  |
 | D.1.4 | The user is notified about critical security-updates (ETSI 5.3) | 2 |  |
 | D.1.5 | The user is able to check the software version for the device (ETSI 5.3) | 2 |  |
-| D.1.6 | Everything enabled by default is necessary for the DUT (ETSI 5.6) | 3 |  |
-| D.1.7 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |  |
 
 ### D2: Physical
 | Nr | Criterias | Value of consequence | Value of implementation |
