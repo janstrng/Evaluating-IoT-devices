@@ -68,11 +68,11 @@ The values of implementation indicate how the criteria has actually been taken i
 | B.3.1 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 4 |  |
 | B.3.2 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 4 |  |
 
-### Defaults 
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
-| Default password is generated uniquely per device. (ETSI 5.1) | 4 |  |
-| Default password does not make use of common patterns or common strings and is not related to public information. Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 |  |
+### C1: Default password
+| Nr | Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ----------- | ----------- |
+| C.1.1 | Default password is generated uniquely per device. (ETSI 5.1) | 4 |  |
+| C.1.2 | Default password does not make use of common patterns or common strings and is not related to public information. Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 |  |
 
 
 ### Updating
