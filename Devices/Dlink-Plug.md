@@ -117,7 +117,8 @@
 
 ## Scoring
 The matrix under show all points that is not implemented at best practice
-![image](https://user-images.githubusercontent.com/76153202/160383901-942d5ae8-c849-4342-82b1-7b35b718f5bc.png)
+![image](https://user-images.githubusercontent.com/76153202/160400313-a3eea00f-f64a-435a-876f-f6fad308ac36.png)
+
 
 ### Reasonsing for value of implementation
 UPD1: “D-Link will normally announce the End of Support date for a product at least three (3) months in advance”
@@ -126,6 +127,6 @@ COM1: Response for request of data has yet to be confirmed
 
 PER8: Data is transmitted to Google and Salesforce located in USA
 
-AUT2: Can not find any real limitation. But can add two factor auhtentification, therefore not 4.  
+B.1.2: Can not find any real limitation. But can add two factor auhtentification, therefore not 4.  
 
-AUT4: Only criteria for passwords is 6 characters.
+B.1.5: Only criteria for passwords is 6 characters.
