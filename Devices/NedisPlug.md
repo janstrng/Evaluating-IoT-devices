@@ -6,7 +6,7 @@
 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | 1 |
 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | 1 |
 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 4 | 1 |
-| The default value for a decision follows best practice for security. (ETSI 5.12) | 2 | 2 - "Data analysis" and "Personalizatin" set to defalt
+| The default value for a decision follows best practice for security. (ETSI 5.12) | 2 | 2 |
 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 2 | 1 |
 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 | 1 |
 
@@ -83,11 +83,11 @@
 | ----------- | ----------- | ----------- |
 | All decisions about the user's personal data are based on consent.(GDPR 7) | 4 | 1 |
 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 | 1 |
-| The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 | 2 - TODO find out who data is being shared with |
+| The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 | 1 |
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 | 1 |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 1 |
-| Data collected is kept within the EU in countries that follow GDPR. | 2 | 1 - collected data is kept in European Economic Area  |
+| Data collected is kept within the EU in countries that follow GDPR. | 2 | 2  |
 
 
 ### Communication
@@ -118,5 +118,15 @@
 
 ## Scoring
 
-### Reasoning for value of implementation
+In the matrix under is the point where our research finds that an improvement is possible. We have only put in the scores that is not implemented in a way, or uses a method that is not the best:
+![image](https://user-images.githubusercontent.com/76153202/160365363-01dac157-7761-4035-84be-47d03f164989.png)
 
+### Reasoning for value of implementation
+PER8: "Personal data may be transferred to other legal entities within the Datwyler Group located in countries inside and/or outside the European Union" 
+
+SET6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
+
+### Reasoning for value of implementation
+PER8: "Personal data may be transferred to other legal entities within the Datwyler Group located in countries inside and/or outside the European Union"
+
+SET6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
