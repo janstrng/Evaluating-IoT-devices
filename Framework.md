@@ -12,7 +12,7 @@ The main focus of the framework are for devices that primarily use Wifi as a met
 
 ## Definitions of Values
 
-![threatActorPyramid](https://user-images.githubusercontent.com/98017528/160378034-b47ff81d-0e7d-4f78-a7e0-0fda6a39c8bf.jpeg)
+![threatActorPyramid](https://user-images.githubusercontent.com/98017528/160378034-b47ff81d-0e7d-4f78-a7e0-0fda6a39c8bf.jpeg)  
 (https://www.telenor.com/security-architecture-design-phase-the-concept-of-a-threat-intelligence-driven-defendable-architecture/)
 
 ### Value of consequence (1-4)
