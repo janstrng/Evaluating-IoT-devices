@@ -23,7 +23,7 @@
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 4 | 1 |
 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 1 |
 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 | 1 |
-| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2-password can not have special characters |
+| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2 |
 
  
 ### Defaults 
@@ -87,13 +87,13 @@
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 | 1 |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 3 | 1 |
 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 1 |
-| Data collected is kept within the EU in countries that follow GDPR. | 2 |  2 - Third parties include american companies, but direct communication with plug, phone and server is done with an amazon server in german|
+| Data collected is kept within the EU in countries that follow GDPR. | 2 |  2 |
 
 
 ### Communication
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 | 2 - Response for request of data has yet to be confirmed |
+| Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 | 2 |
 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | 1 |
 
 
@@ -117,8 +117,10 @@
 
 ##Scoring
 Under is the matis with every value where an improvement is possible:
-![image](https://user-images.githubusercontent.com/76153202/160373812-bd3fe1d5-407d-4051-9a70-ea32bc791fbd.png)
+![image](https://user-images.githubusercontent.com/76153202/160378621-986da0a3-cf48-4638-a4a7-4a260d3251e1.png)
 
-COM1: On march 15th did we send an GDPR request to the norwegian email address for customer service. Per today, march 28th, have we had no answer, either that the request is received, or that it is being taken care off.
+COM1: On march 15th did we send an GDPR request to the norwegian email address for customer service. We are yet to get a response
 
 AUT4: This is because the passwords criterias in the application is "*The password must contain at least 8 characters and numbers without spaces and without special characters*". This opens up some weaknesses, with no restrictions on big or small letters and no special characters.
+
+PER8: Third parties include american companies, but direct communication with plug, phone and server is done with an amazon server in german
