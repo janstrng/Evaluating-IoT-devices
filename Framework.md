@@ -99,14 +99,16 @@ The values of implementation indicate how the criteria has actually been taken i
 | C.3.10 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given within a week. | 4 | |
 | C.3.11 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | |
 
-### Updating
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
-| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | (2) |  |
-| Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 |  |
-| User is notified about security-updates(ETSI 5.3) | 2 |  |
-| The user is able to check  the software version for the devis. | 2 |  |
-
+### D1: Updating and support
+| Nr | Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ----------- | ----------- |
+| D.1.1 | Support period of the device is public available and a 5 years with updates after sale(Andrij) |  | 2 |
+| D.1.2 | The device looks for updates and initiate updates when first enabled if there is a new update (ETSI 5.3) | 3 |  |
+| D.1.3 | Software updates are automatically and periodically checked and initiated. It is recommended to give the user the ability to manually check and install updates. (ETSI 5.3) | 4 |  |
+| D.1.4 | The user is notified about critical security-updates (ETSI 5.3) | 2 |  |
+| D.1.5 | The user is able to check the software version for the device (ETSI 5.3) | 2 |  |
+| D.1.6 | Everything enabled by default is necessary for the DUT (ETSI 5.6) | 3 |  |
+| D.1.7 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |  |
 
 ### Security
 | Criterias | Value of consequence | Value of implementation |
