@@ -128,22 +128,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | E.7 | Hardcoded values are documented as such.(ETSI 5.4) | 1 |  |
 | E.8 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance(ETSI 5.4) | 3 |  |
 
-### Security
-| User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
-
-### Interfaces
-| Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |  |
-| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 |  |
-| All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 |  |
-
-### Manipulation of data
-| The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 4 |  |
-
-### Communication
-| Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 |  |
-| Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 |  |
-
-
 ### Scoring system
 
 The scoring system we choose to use for evaluating the IoT devices will be an qualitative risk-analysis matrix. We have chosen this excact method of evaluting the total som because it will lead to an easy we to also visibly show the evaluation on the different point, and the average. With this method will we be able to put in every point of the framework in to the matrix to see which point of the framework every device needs to improve. 
