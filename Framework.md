@@ -102,7 +102,7 @@ The values of implementation indicate how the criteria has actually been taken i
 ### D1: Updating and support
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| D.1.1 | Support period of the device is public available and a 5 years with updates after sale(Andrij) |  | 2 |
+| D.1.1 | Support period of the device is public available and a 5 years with updates after sale(Andrij) | 2 |  |
 | D.1.2 | The device looks for updates and initiate updates when first enabled if there is a new update (ETSI 5.3) | 3 |  |
 | D.1.3 | Software updates are automatically and periodically checked and initiated. It is recommended to give the user the ability to manually check and install updates. (ETSI 5.3) | 4 |  |
 | D.1.4 | The user is notified about critical security-updates (ETSI 5.3) | 2 |  |
@@ -110,43 +110,38 @@ The values of implementation indicate how the criteria has actually been taken i
 | D.1.6 | Everything enabled by default is necessary for the DUT (ETSI 5.6) | 3 |  |
 | D.1.7 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |  |
 
+### D2: Physical
+| Nr | Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ----------- | ----------- |
+| D.2.1 | Device is made by adequate physical material for its use case (Enisa) | 1 |  |
+| D.2.1 | All exposed interfaces (Physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled(ETSI 5.6) | 3 |  |
+
+### E: Further tests that require specialized knowledge
+| Nr | Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ----------- | ----------- |
+| E.1 | If the purpose for processing personal data is no longer valid, the controller shall stop processing of the data (GDPR 7) | 4 |  |
+| E.2 | All measurement (telemetry) data is processing in the way the documentation describes (ETSI 5.14) | 4 |  |
+| E.3 | Software security is appropriate for the task in regards to cryptography (ETSI 5.3) | 3 |  |
+| E.4 | Update mechanism can not be misused (ETSI 5.3) | 4 |  |
+| E.5 | The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | 4 |  |
+| E.6 | Passwords are stored according to the minimum required security practice.  | 4 |  |
+| E.7 | Hardcoded values are documented as such.(ETSI 5.4) | 1 |  |
+| E.8 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance(ETSI 5.4) | 3 |  |
+
 ### Security
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
-| Device is made of adequate physical material for its use case (enisa) | 1 |  |
 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
 
 ### Interfaces
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |  |
 | Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 |  |
 | All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 |  |
 
-
 ### Manipulation of data
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
 | The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 4 |  |
 
-
 ### Communication
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
 | Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 |  |
 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 |  |
-
-### Further tests that require specialized knowledge
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
-| If the purpose for processing personal data is no longer valid, then the controller/organization shall stop processing/usage of the data. (GDPR 11) | 4 |  |
-| All measurements and data of that type is processing the way the documentation describes (ETSI 5.14) | 4 |  |
-| Software security is appropriate for the task in regards to cryptography(ETSI 5.3) | 3 |  |
-| Update mechanism cannot be misused(ETSI 5.3) | 4 |  |
-| The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | 4 |  |
-| Passwords are stored according to the minimum required security practice. | 4 |  |
-| Hardcoded values are documented as such. (ETSI 5.4) | 1 |  |
-| Hardcoded values are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 3 | |
 
 
 ### Scoring system
