@@ -72,8 +72,8 @@
 
 
 ### Manipulation of data
-| Criterias | Value of consequence |
-| ----------- | ----------- |
+| Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | -------------|
 | The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 4 | 1 |
 
 
