@@ -72,8 +72,17 @@ The values of implementation indicate how the criteria has actually been taken i
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | C.1.1 | Default password is generated uniquely per device. (ETSI 5.1) | 4 |  |
-| C.1.2 | Default password does not make use of common patterns or common strings and is not related to public information. Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 |  |
+| C.1.2 | Default password does not make use of common patterns or common strings and is not related to public information. Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters)) (ETSI 5.1) (ETSI 5.4) | 4 | |
 
+### C2: Erasure
+| Nr | Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ----------- | ----------- |
+| C.2.1 | User have the right to require erasure of their personal data (GDPR 17) | 4 |  |
+| C.2.2 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 |  |
+| C.2.3 | A clear confirmation is provided after deletions(ETSI 5.11) | 2 |  |
+| C.2.4 | Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 |  |
+| C.2.5 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 |  |
+| C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 |  |
 
 ### Updating
 | Criterias | Value of consequence | Value of implementation |
@@ -96,17 +105,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |  |
 | Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 |  |
 | All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 |  |
-
-
-### Erasure
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
-| User have the right to require erasure of their personal data (GDPR 17) | 4 |  |
-| When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 |  |
-| A clear confirmation is provided after deletions(ETSI 5.11) | 2 |  |
-| Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 |  |
-| Nothing indicates that the user data is not erased(ETSI 5.11) | 4 |  |
-| Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 |  |
 
 
 ### Manipulation of data
