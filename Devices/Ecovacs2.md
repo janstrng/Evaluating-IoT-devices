@@ -6,14 +6,14 @@
 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | 1 |
 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | 1 |
 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 4 | 1 |
-| The default value for a decision follows best practice for security. (ETSI 5.12) | 2 |	4 - Several options set to default for collection and access of data; Plan of product agreemnt; Other information about the status of the device. |
-| Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 3 | 3 - Certain explanations for options are not explained completely and in some cases not visible in the application. |
-| Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 | 2- User was in one case asked to allow access of usage of other apps  |
+| The default value for a decision follows best practice for security. (ETSI 5.12) | 2 |	4 |
+| Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 3 | 3 |
+| Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 | 2 |
 
 ### Registration
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Device look for and initiate updates when first enabled if not latest version. | 3 | 4- No indication that device was updated when first configured TODO futher test to attempt update of device|
+| Device look for and initiate updates when first enabled if not latest version. | 3 | 4 |
 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 | 1 |
 
 
@@ -36,7 +36,7 @@
 ### Updating
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | 4 - No support period found |
+| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | 4 |
 | Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | TODO |
 | User is notified about security-updates(ETSI 5.3) | 2 | Unknown |
 | The user is able to check  the software version for the devis. | 2 | 1 |
@@ -46,10 +46,10 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Device is made of adequate physical material for its use case (enisa) | 1 | 1 |
-| Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 | 2 - Device make use of CoAP. Traffic does not seem to be encrypted, however it does not seem to be able to make use of the format. More research on CoAP protocol needed. |
+| Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 | 2 |
 | All cryptographics detail are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 4 | TODO |
 | The DUT can be isolated (ETSI 5.3) | 3 | 1 |
-| The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 | 2 CoAP |
+| The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 | 2 |
 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 3 | 1 |
 
 ### Interfaces
@@ -61,8 +61,8 @@
 
 
 ### Erasure
-| Criterias | Value of consequence |
-| ----------- | ----------- |
+| Criterias | Value of consequence | ---------- |
+| ----------- | ----------- | ---------- |
 | User have the right to require erasure of their personal data (GDPR 17) | 4 | 1 |
 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 | 1 |
 | A clear confirmation is provided after deletions(ETSI 5.11) | 2 | TODO |
@@ -72,8 +72,8 @@
 
 
 ### Manipulation of data
-| Criterias | Value of consequence |
-| ----------- | ----------- |
+| Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ---------- |
 | The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 4 | 1 |
 
 
@@ -119,3 +119,19 @@
 In the matrix show the points that can be improved
 ![image](https://user-images.githubusercontent.com/76153202/160279610-df97f0e7-9100-492a-a26b-0a014efbaac6.png)
 
+REASONING FOR VALUE OF IMPLEMENTATION:
+
+SET6: Several options set to default for collection and access of data; Plan of product agreemnt; Other information about the status of the device.
+
+SET7:  Certain explanations for options are not explained completely and in some cases not visible in the application.
+
+SET8: User was in one case asked to allow access of usage of other apps
+
+REG1:  No indication that device was updated when first configured TODO futher test to attempt update of device
+
+
+UPD1:  No support period found
+
+SEC2: Device make use of CoAP. Traffic does not seem to be encrypted, however it does not seem to be able to make use of the format. More research on CoAP protocol needed.
+
+SEC5: CoAP is not the best encryption method, and has some known weaknesses
