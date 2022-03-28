@@ -117,7 +117,8 @@
 
 ## Score
 In the matrix below have we just put the points that stands out, and where basic updates can be done:
-![image](https://user-images.githubusercontent.com/76153202/160374478-c20e25f1-c630-4e2c-87c4-6ea692695112.png)
+![image](https://user-images.githubusercontent.com/76153202/160400582-c3476a6b-3513-407d-b216-1e988acaae72.png)
+
 
 ### Reasoning for value of implementation
 INT2: There are four open ports on the device, none that are found to be vulnerable but still make up for an attack-vector!
