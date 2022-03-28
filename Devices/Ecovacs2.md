@@ -117,7 +117,8 @@
 
 ##Scoring
 In the matrix show the points that can be improved
-![image](https://user-images.githubusercontent.com/76153202/160279610-df97f0e7-9100-492a-a26b-0a014efbaac6.png)
+![image](https://user-images.githubusercontent.com/76153202/160400832-607f64da-d82c-4208-b633-80cd1764e522.png)
+
 
 REASONING FOR VALUE OF IMPLEMENTATION:
 
