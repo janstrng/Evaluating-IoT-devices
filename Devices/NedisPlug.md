@@ -47,7 +47,7 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Device is made of adequate physical material for its use case (enisa) | 1 | 1 |
-| Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 5 | TODO |
+| Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 5 | 1 - TLS 1.2, PSK, AES 128 CBC, SHA256 |
 | All cryptographics detail are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 5 | TODO |
 | The DUT can be isolated (ETSI 5.3) | 3 | TODO |
 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 | TODO |
