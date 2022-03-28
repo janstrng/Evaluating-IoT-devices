@@ -82,7 +82,7 @@
 | ----------- | ----------- | ----------- |
 | All decisions about the user's personal data are based on consent.(GDPR 7) | 4 | 1 |
 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 | -TID- |
-| Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 | TODO |
+
 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 | 1 |
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 | 1 |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 | 1 |
@@ -112,7 +112,9 @@
 | Update mechanism cannot be misused(ETSI 5.3) | 4 | TODO |
 | The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | 4 | TODO |
 | Passwords are stored according to the minimum required security practice. | 4 | |
-| Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 4 | |
+| Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 | TODO | 
+| Hardcoded values are documented as such .(ETSI 5.4) | 1 | |
+| Hardcoded valuesare protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 3 | |
 
 ## Scoring
 The matrix under show all points that is not implemented at best practice
