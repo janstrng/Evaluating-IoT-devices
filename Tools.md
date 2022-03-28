@@ -26,21 +26,31 @@ After finding what interfaces are open in the device and further research and ev
 The evaluation is taken into consideration when testing the security of the [interfaces](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#interfaces) of the device.
 
 
-
 ## Wireshark
 Wireshark is a network protocol analyser. It is used by organizations, governments and educational institutions around the globe. We chose Wireshark because it is one of the most used tools for network analysis in the world, and therefore there would be more tutorials and cookbooks on it.
 ![wireshark](https://user-images.githubusercontent.com/98017528/159920105-bd147713-f39a-4c41-8339-2ee758d05d3e.png)
 
 In addition, we were recommended to Wireshark by our supervisor. The method we used Wireshark was to monitor traffic from the DUT. 	
+
 ## Burp Suite
 Burp Suite is a graphical tool that lets you test web applications.
 ![burp](https://user-images.githubusercontent.com/98017528/159920099-27b1463c-b8e9-4c1c-b910-ae2757342313.png)
 
+Using burp suite we can analyze and test how the application of the device acts
 
 ## Binwalker
 "Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images." (https://www.kali.org/tools/binwalk/)  
 Given that the firmware of the device is available, binwalker can be used to inspect the embedded files for hardcoded values associated with authentication. 
 ![binwalk](https://user-images.githubusercontent.com/98017528/159920094-c4717241-90d2-43e0-933a-fbefe1d6b4de.png)
+
+Having gained access to a devices firmware we now can use binwalk to extract files from the .bin file.  
+We can start by analyzing the firmware using:   
+```binwalk <firmware-image>```  
+
+From there we can extract known file types:  
+```binwalk -e <firmware-image>```  
+
+Going into the extracted file (formated as "_filename.extracted") we found ourself limited to what we could find due to encrypted zip-files and non-humanreadable text, witch might indicate a level of protection and security.
 
 ## Ettercap
 "Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." (https://www.ettercap-project.org/). 
