@@ -117,7 +117,7 @@
 
 ## Score
 In the matrix below have we just put the points that stands out, and where basic updates can be done:
-![image](https://user-images.githubusercontent.com/76153202/160277255-c49719b1-6fb0-4864-89dc-975327f6945b.png)
+![image](https://user-images.githubusercontent.com/76153202/160374478-c20e25f1-c630-4e2c-87c4-6ea692695112.png)
 
 INT2: There are four open ports on the device, none that are found to be vulnerable but still make up for an attack-vector!
 
