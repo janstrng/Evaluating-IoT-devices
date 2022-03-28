@@ -84,6 +84,18 @@ The values of implementation indicate how the criteria has actually been taken i
 | C.2.5 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 |  |
 | C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 |  |
 
+### C3: Personal data
+| Nr | Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ----------- | ----------- |
+|||||
+| C.1.2 | All decisions about the user's personal data are based on consent.(GDPR 7) | 4 |  |
+| C.1.3 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 |  |
+| C.1.4 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 |  |
+| C.1.5 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 |  |
+| C.1.6 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 |  |
+| C.1.7 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
+| C.1.8 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |  |
+
 ### Updating
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
@@ -116,13 +128,6 @@ The values of implementation indicate how the criteria has actually been taken i
 ### Personal data
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| All decisions about the user's personal data are based on consent.(GDPR 7) | 4 |  |
-| Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 |  |
-| Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 |  |
-| The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 |  |
-| The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 |  |
-| The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
-| The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |  |
 | Data collected is kept within the EU in countries that follow GDPR. | 2 |  |
 
 
