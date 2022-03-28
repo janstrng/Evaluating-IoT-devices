@@ -63,12 +63,12 @@
 ### Erasure
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | -------------- |
-| User have the right to require erasure of their personal data (GDPR 17) | 4 |
-| When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 |
-| A clear confirmation is provided after deletions(ETSI 5.11) | 2 |
-| Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 |
-| Nothing indicates that the user data is not erased(ETSI 5.11) | 4 |
-| Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 |
+| User have the right to require erasure of their personal data (GDPR 17) | 4 | 1 |
+| When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 | TODO |
+| A clear confirmation is provided after deletions(ETSI 5.11) | 2 | TODO |
+| Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 | 1 | 
+| Nothing indicates that the user data is not erased(ETSI 5.11) | 4 | TODO |
+| Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | 1 |
 
 
 ### Manipulation of data
