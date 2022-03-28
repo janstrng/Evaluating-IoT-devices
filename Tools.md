@@ -50,4 +50,7 @@ We were recommended Ettercap by our supervisor as a great tool to use for MitM a
 
 The way we used Ettercap was with arp poisoning, and then use Wireshark and the ARP table.
 
-## SQLi / script injection
+## SQL injection
+Testing the application for sql-vulnerabilities we attempted injecting the text-fields of the login-page, checking for common sqli strings such that are found here: https://www.w3schools.com/sql/sql_injection.asp  
+If ending up, getting an SQL-error or actually succeeding logging in, will result in a fail for the application.
+Not finding anything that indicates the application to be vulnerable, such as wrong credentials- or format-message, passes the test on point A.4 and  A.5.
