@@ -114,10 +114,11 @@
 | Hardcoded values are documented as such. (ETSI 5.4) | 1 |  |
 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 3 | |
 
-##Scoring
+## Scoring
 In the matrix under is the point where our research finds that an improvement is possible. We have only put in the scores that is not implemented in a way, or uses a method that is not the best:
 ![image](https://user-images.githubusercontent.com/76153202/160365363-01dac157-7761-4035-84be-47d03f164989.png)
 
+### Reasoning for value of implementation
 PER8: "Personal data may be transferred to other legal entities within the Datwyler Group located in countries inside and/or outside the European Union" 
 
 SET6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
