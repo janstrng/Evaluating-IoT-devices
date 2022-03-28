@@ -6,7 +6,7 @@
 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | 1 |
 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | 1 |
 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 4 | 1 |
-| The default value for a decision follows best practice for security. (ETSI 5.12) | 2 | 2 - "Data analysis" and "Personalizatin" set to defalt
+| The default value for a decision follows best practice for security. (ETSI 5.12) | 2 | 2 - "Data analysis" and "Personalization" set to defalt
 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 2 | 1 |
 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 | 1 |
 
@@ -113,3 +113,11 @@
 | Passwords are stored according to the minimum required security practice. | 4 |  |
 | Hardcoded values are documented as such. (ETSI 5.4) | 1 |  |
 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 3 | |
+
+##Scoring
+In the matrix under is the point where our research finds that an improvement is possible. We have only put in the scores that is not implemented in a way, or uses a method that is not the best:
+![image](https://user-images.githubusercontent.com/76153202/160365363-01dac157-7761-4035-84be-47d03f164989.png)
+
+PER8: This point is not the most dangerous point, therefore the value of consequence, but it is to be noted that the data can be transfered outside of the EU
+
+SET6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
