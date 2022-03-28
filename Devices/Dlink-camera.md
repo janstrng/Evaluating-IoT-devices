@@ -61,7 +61,7 @@
 
 
 ### Erasure
-| Criterias | Value of consequence |
+| Criterias | Value of consequence | Value of implementation `
 | ----------- | ----------- |
 | User have the right to require erasure of their personal data (GDPR 17) | 4 |
 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 |
