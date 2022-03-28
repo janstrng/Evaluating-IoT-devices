@@ -87,8 +87,7 @@ The values of implementation indicate how the criteria has actually been taken i
 ### C3: Personal data
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| C.3.1 | The user is able to edit and complete wrong and uncomplete data without undue delay
-(GDPR 16) | 4 |  |
+| C.3.1 | The user is able to edit and complete wrong and uncomplete data without undue delay (GDPR 16) | 4 |  |
 | C.3.2 | All decisions about the user's personal data are based on consent.(GDPR 7) | 4 |  |
 | C.3.3 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 |  |
 | C.3.4 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 |  |
@@ -97,8 +96,7 @@ The values of implementation indicate how the criteria has actually been taken i
 | C.3.7 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
 | C.3.8 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |  |
 | C.3.9 | Data collected is kept within the EU/EØS in countries that follow GDPR. | 2 | |
-| C.3.10 | Communication with the company is adequate for the request that is made.
-A confirmation of receival of a request is given within a week. | 4 | |
+| C.3.10 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given within a week. | 4 | |
 | C.3.11 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | |
 
 ### Updating
