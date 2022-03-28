@@ -23,7 +23,7 @@
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 4 | 1 |
 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 3 - Can easily bypass limited attempts by restarting the app.|
 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 | 1 |
-| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2 |
+| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 3 - Only requirement is 6 characters |
 
  
 ### Defaults 
@@ -36,7 +36,7 @@
 ### Updating
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | 4 - “D-Link will normally announce the End of Support date for a product at least three (3) months in advance” |
+| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | 2 - “D-Link will normally announce the End of Support date for a product at least three (3) months in advance” |
 | Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | 1 |
 | User is notified about security-updates(ETSI 5.3) | 2 | 1 |
 | The user is able to check  the software version for the devis. | 2 | 1 |
@@ -118,6 +118,20 @@
 ## Score
 In the matrix below have we just put the points that stands out, and where basic updates can be done:
 ![image](https://user-images.githubusercontent.com/76153202/160277255-c49719b1-6fb0-4864-89dc-975327f6945b.png)
+
+INT2: There are four open ports on the device, none that are found to be vulnerable but still make up for an attack-vector!
+
+AUT4:  The only requirements passwords are 6 characters. From a security perspective is this less almost every other system with passwords. This makes it easy for the user to create an easy password.
+
+PER2: User must "specifically requested to be removed from our databases"
+
+COM1: Response for request of data has yet to be confirmed
+
+AUT2: The authentication area is were our research found the D-Link systems most vulnerable. As for this point didn't we really find any clear mechanism. The reason the point don't have the value of implementation on 4 is because the user has the option to enable Face-ID or Two-factor authentification.
+
+UPD1: D-Link don't have any public date on when the support period will end, but **normally** announce the end of support at least three month in advance
+
+PER8: Data is transmitted to Google and Salesforce located in USA
 
 
 
