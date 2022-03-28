@@ -117,7 +117,7 @@
 
 ## Scoring
 Under is the matis with every value where an improvement is possible:
-![image](https://user-images.githubusercontent.com/76153202/160378621-986da0a3-cf48-4638-a4a7-4a260d3251e1.png)
+![image](https://user-images.githubusercontent.com/76153202/160400930-6d3a61a1-3efd-4075-8975-5337cd50ce30.png)
 
 COM1: On march 15th did we send an GDPR request to the norwegian email address for customer service. We are yet to get a response
 
