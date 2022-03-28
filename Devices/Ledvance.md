@@ -115,7 +115,7 @@
 | Hardcoded values are documented as such. (ETSI 5.4) | 4 | |
 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance.(ETSI 5.4) | 3 |  |
 
-##Scoring
+## Scoring
 Under is the matis with every value where an improvement is possible:
 ![image](https://user-images.githubusercontent.com/76153202/160378621-986da0a3-cf48-4638-a4a7-4a260d3251e1.png)
 
