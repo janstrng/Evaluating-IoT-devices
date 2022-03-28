@@ -61,8 +61,8 @@
 
 
 ### Erasure
-| Criterias | Value of consequence |
-| ----------- | ----------- |
+| Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | -----------|
 | User have the right to require erasure of their personal data (GDPR 17) | 4 | TODO |
 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 | TODO |
 | A clear confirmation is provided after deletions(ETSI 5.11) | 2 | TODO |
@@ -72,8 +72,8 @@
 
 
 ### Manipulation of data
-| Criterias | Value of consequence |
-| ----------- | ----------- |
+| Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | -----------|
 | The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 4 | TODO |
 
 
