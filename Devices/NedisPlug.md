@@ -93,7 +93,7 @@
 
 ### Communication
 | Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- | TODO |
+| ----------- | ----------- | ----------- | 
 | Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 5 | TODO |
 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 5 | TODO |
 
