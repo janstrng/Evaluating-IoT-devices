@@ -44,7 +44,7 @@ The values of implementation indicate how the criteria has actually been taken i
 | A.10 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 |  |
 
 
-### B1: Authentication, 
+### B1: Authentication 
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | B.1.1 | There is no indication that user input fields are vulnerable for injection-attacks and only users with right credentials are given proper access(ETSI 5.5) | 4 |  |
@@ -54,6 +54,14 @@ The values of implementation indicate how the criteria has actually been taken i
 | B.1.5 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 |  |
 | B.1.6 | Administrator gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
  
+### B2:
+| Nr | Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ----------- | ----------- |
+| B.2.1 | Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 |  |
+| B.2.2 | All cryptographics detail are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 4 |  |
+| B.2.3 | The DUT can be isolated (ETSI 5.3) | 3 |  |
+| B.2.4 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 |  |
+
 ### Defaults 
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
@@ -74,10 +82,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Device is made of adequate physical material for its use case (enisa) | 1 |  |
-| Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 |  |
-| All cryptographics detail are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 4 |  |
-| The DUT can be isolated (ETSI 5.3) | 3 |  |
-| The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 |  |
 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
 
 ### Interfaces
