@@ -115,14 +115,13 @@ The values of implementation indicate how the criteria has actually been taken i
 | C.3.1 | The user is able to edit and complete wrong and uncomplete data without undue delay (GDPR 16) | 4 |  |
 | C.3.2 | All decisions about the user's personal data are based on consent.(GDPR 7) | 4 |  |
 | C.3.3 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 |  |
-| C.3.4 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 |  |
-| C.3.5 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 |  |
-| C.3.6 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 |  |
-| C.3.7 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
-| C.3.8 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |  |
-| C.3.9 | Data collected is kept within the EU/EØS in countries that follow GDPR. | 2 | |
-| C.3.10 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given within a week. | 4 | |
-| C.3.11 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | |
+| C.3.4 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 |  |
+| C.3.5 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 |  |
+| C.3.6 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
+| C.3.7 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |  |
+| C.3.8 | Data collected is kept within the EU/EØS in countries that follow GDPR. | 2 | |
+| C.3.9 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given. | 4 | |
+| C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | |
 
 ### D1: Updating and support
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -148,10 +147,11 @@ The values of implementation indicate how the criteria has actually been taken i
 | E.4 | Update mechanism can not be misused (ETSI 5.3) | 4 |  |
 | E.5 | The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | 4 |  |
 | E.6 | Passwords are stored according to the minimum required security practice.  | 4 |  |
-| E.7 | Hardcoded values are documented as such.(ETSI 5.4) | 1 |  |
-| E.8 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance(ETSI 5.4) | 3 |  |
+| E.7 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 |  |
+| E.8 | Hardcoded values are documented as such.(ETSI 5.4) | 1 |  |
+| E.9 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance(ETSI 5.4) | 3 |  |
 
-### Scoring system
+## Scoring system
 
 The scoring system we choose to use for evaluating the IoT devices will be an qualitative risk-analysis matrix. We have chosen this excact method of evaluting the total som because it will lead to an easy we to also visibly show the evaluation on the different point, and the average. With this method will we be able to put in every point of the framework in to the matrix to see which point of the framework every device needs to improve. 
  Here is the qualitative risk-analysis matrix we will be using for this scoring.
@@ -161,4 +161,8 @@ The scoring system we choose to use for evaluating the IoT devices will be an qu
 The qualitative risk-analysis matrix is a diagram we have used before with sucess. A qualitative risk-analysis method of evaluating risk is not an unusal method of showing, an evaluating risk analysis. There are many reasons for this, where some of the key points are that the model identifies the key point of weakness, it shows a clear view of the secuirty status, and priorities possibility vs impact. (Kilde: https://www.safran.com/content/introduction-qualitative-risk-analysis).
 
 For our risk scoring have we chosen 'value of consequence' * 'value of implementation'. We have then concluded that every scor over 12 will be categorized as 'RED', every score under 4 as 'GREEN', and everything between as 'Yellow'. A 'GREEN' score means that there is a low risk of security in that point, a 'YELLOW' score will be a medium risk of security, and a 'RED' score is a high risk in security.
-
+ ### Reasoning for Value of implementation 
+ 
+ In this area of the framwork can you put your reasoning for the value of implementation. This will keep the tables clean and simple to read. You should put a refference to which point you are talking about. 
+ EXAMPLE:
+ C.10: ....
