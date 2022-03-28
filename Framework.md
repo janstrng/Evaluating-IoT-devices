@@ -29,7 +29,7 @@ The values of implementation indicate how the criteria has actually been taken i
 2. Criteria has not been taken into consideration and is missing this feature or has been implemented badly to an extent that it does not fulfill its function.
 
 ## Tests
-### Set up user
+### Set up user and device
 | nr| Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | A.1 | The process is based on consent (GDPR 7) | 4 | |
@@ -40,12 +40,8 @@ The values of implementation indicate how the criteria has actually been taken i
 | A.6 | The default value for a decision follows best practice for security. (ETSI 5.12) | 2 |  |
 | A.7 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 2 |  |
 | A.8 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 |  |
-
-### Registration
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
-| Device look for and initiate updates when first enabled if not latest version. | 3 |  |
-| Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 |  |
+| A.9 | Device look for and initiate updates when first enabled if not latest version. | 3 |  |
+| A.10 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 |  |
 
 
 ### Authentication
