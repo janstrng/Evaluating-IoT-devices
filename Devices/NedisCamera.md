@@ -54,8 +54,8 @@
 ### Interfaces
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 1 - one rsp interface is open |
-| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 | 1 - TODO, look into necessity of rsp |
+| Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 1 - one interface with irc is open |
+| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 | 1 |
 | All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 | 1 - reset button and sd-card is protected. |
 
 
