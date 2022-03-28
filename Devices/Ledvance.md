@@ -3,7 +3,7 @@
 | ----------- | ----------- | ----------- |
 | The process is based on consent (GDPR 7) | 4 | 1 |
 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 4 | 1 |
-| Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | 2-3 |
+| Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | 1 |
 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | 1 |
 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 4 | 1 |
 | The default value for a decision follows best practice for security. (ETSI 5.12) | 2 | 1 |
@@ -56,7 +56,7 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 1 |
-| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 | TODO |
+| Everything enabled by default is necessary for the DUT (ETSI 5.6) | 4 | 1 |
 | All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 | 1 |
 
 
@@ -87,7 +87,7 @@
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 | 1 |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 3 | 1 |
 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 1 |
-| Data collected is kept within the EU in countries that follow GDPR. | 2 |  |
+| Data collected is kept within the EU in countries that follow GDPR. | 2 |  2 - Third parties include american companies, but direct communication with plug, phone and server is done with an amazon server in german|
 
 
 ### Communication
