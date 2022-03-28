@@ -125,8 +125,3 @@ In the matrix under is the point where our research finds that an improvement is
 PER8: "Personal data may be transferred to other legal entities within the Datwyler Group located in countries inside and/or outside the European Union" 
 
 SET6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
-
-### Reasoning for value of implementation
-PER8: "Personal data may be transferred to other legal entities within the Datwyler Group located in countries inside and/or outside the European Union"
-
-SET6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
