@@ -21,9 +21,9 @@
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
 | Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 4 | 1 |
-| Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 3 - Can easily bypass limited attempts by restarting the app, Can also write in up to 10 wrong attempts before limited attempts coms in |
+| Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 3 |
 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 | 1 |
-| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 3 - only criteria is 6 characters  |
+| Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 3 -   |
 
  
 ### Defaults 
@@ -36,8 +36,8 @@
 ### Updating
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 |	2 - “D-Link will normally announce the End of Support date for a product at least three (3) months in advance” |
-| Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | 2 |
+| Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 |	2 |
+| Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | TODO |
 | User is notified about security-updates(ETSI 5.3) | 2 | 1 |
 | The user is able to check  the software version for the devis. | 2 | 1 |
 
@@ -87,13 +87,13 @@
 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 | 1 |
 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 | 1 |
 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 1 |
-| Data collected is kept within the EU in countries that follow GDPR. | 2 | 4 - Data is transmitted to Google and Salesforce located in USA |
+| Data collected is kept within the EU in countries that follow GDPR. | 2 | 4 |
 
 
 ### Communication
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
-| Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 | 2 - Response for request of data has yet to be confirmed |
+| Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 | 2 |
 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | 0 |
 
 
@@ -113,3 +113,18 @@
 | The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | 4 | TODO |
 | Passwords are stored according to the minimum required security practice. | 4 | |
 | Hardcoded values are documented as such and are protected by suitable mechanisms, including tamper-resistance. (ETSI 5.4) | 4 | |
+
+## Scoring
+The matrix under show all points that is not implemented at best practice
+![image](https://user-images.githubusercontent.com/76153202/160383901-942d5ae8-c849-4342-82b1-7b35b718f5bc.png)
+
+### Reasonsing for value of implementation
+UPD1: “D-Link will normally announce the End of Support date for a product at least three (3) months in advance”
+
+COM1: Response for request of data has yet to be confirmed
+
+PER8: Data is transmitted to Google and Salesforce located in USA
+
+AUT2: Can not find any real limitation. But can add two factor auhtentification, therefore not 4.  
+
+AUT4: Only criteria for passwords is 6 characters.
