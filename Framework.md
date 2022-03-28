@@ -49,12 +49,11 @@ The values of implementation indicate how the criteria has actually been taken i
 | ----------- | ----------- | ----------- | ----------- |
 | B.1.1 | There is no indication that user input fields are vulnerable for injection-attacks and only users with right credentials are given proper access(ETSI 5.5) | 4 |  |
 | B.1.2 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 |  |
-| B.1.3 | Process for changing passwords is described in the privacy policy/user agreement and is easy to follow. The password is actually changed.
-(ETSI 5.1) | 4 |  |
+| B.1.3 | Process for changing passwords is described in the privacy policy/user agreement and is easy to follow. The password is actually changed. (ETSI 5.1) | 4 |  |
 | B.1.4 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 |  |
 | B.1.5 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 |  |
 | B.1.6 | Administrator gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
-
+ 
 ### Defaults 
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
