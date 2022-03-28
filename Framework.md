@@ -163,6 +163,7 @@ The qualitative risk-analysis matrix is a diagram we have used before with suces
 For our risk scoring have we chosen 'value of consequence' * 'value of implementation'. We have then concluded that every scor over 12 will be categorized as 'RED', every score under 4 as 'GREEN', and everything between as 'Yellow'. A 'GREEN' score means that there is a low risk of security in that point, a 'YELLOW' score will be a medium risk of security, and a 'RED' score is a high risk in security.
  ### Reasoning for Value of implementation 
  
- In this area of the framwork can you put your reasoning for the value of implementation. This will keep the tables clean and simple to read. You should put a refference to which point you are talking about. 
+ In this area of the framwork can you put your reasoning for the value of implementation. This will keep the tables clean and simple to read. You should put a refference to which criteria you are talking about. 
+ <br>
  EXAMPLE:
  C.10: ....
