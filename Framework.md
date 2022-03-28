@@ -62,6 +62,12 @@ The values of implementation indicate how the criteria has actually been taken i
 | B.2.3 | The DUT can be isolated (ETSI 5.3) | 3 |  |
 | B.2.4 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 |  |
 
+### B3: Disclosing of vulnerability
+| Nr | Criterias | Value of consequence | Value of implementation |
+| ----------- | ----------- | ----------- | ----------- |
+| B.3.1 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 4 |  |
+| B.3.2 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 4 |  |
+
 ### Defaults 
 | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- |
@@ -127,13 +133,6 @@ The values of implementation indicate how the criteria has actually been taken i
 | ----------- | ----------- | ----------- |
 | Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given within a week. | 4 |  |
 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 |  |
-
-
-### Disclosing of vulnerability
-| Criterias | Value of consequence | Value of implementation |
-| ----------- | ----------- | ----------- |
-| The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 4 |  |
-| The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 4 |  |
 
 ### Further tests that require specialized knowledge
 | Criterias | Value of consequence | Value of implementation |
