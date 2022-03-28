@@ -117,8 +117,8 @@
 
 ##Scoring
 Under is the matis with every value where an improvement is possible:
-![image](https://user-images.githubusercontent.com/76153202/160360079-018bfab6-d7d0-4e98-b29d-7b18babb0a23.png)
+![image](https://user-images.githubusercontent.com/76153202/160373812-bd3fe1d5-407d-4051-9a70-ea32bc791fbd.png)
 
-As you can see, the plug fails the test in one aera, communication with the company. On march 15th did we send an GDPR request to the norwegian email address for customer service. Per today, march 28th, have we had no answer, either that the request is received, or that it is being taken care off.
+COM1: On march 15th did we send an GDPR request to the norwegian email address for customer service. Per today, march 28th, have we had no answer, either that the request is received, or that it is being taken care off.
 
-The other point ion the matrix(AUT4) is about passwords. This is because the passwords criterias in the application is "*The password must contain at least 8 characters and numbers without spaces and without special characters*". This opens up some weaknesses, with no restrictions on big or small letters and no special characters.
+AUT4: This is because the passwords criterias in the application is "*The password must contain at least 8 characters and numbers without spaces and without special characters*". This opens up some weaknesses, with no restrictions on big or small letters and no special characters.
