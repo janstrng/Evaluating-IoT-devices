@@ -14,6 +14,15 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | A.8 | Device look for and initiate updates when first enabled if not latest version. | 3 | 4 |
 | A.9 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 | 1 |
 
+#### Reasoning for value of implementation
+
+A.5: Several options set to default for collection and access of data; Plan of product agreemnt; Other information about the status of the device.
+
+A.6: Certain explanations for options are not explained completely and in some cases not visible in the application.
+
+A.7: User was in one case asked to allow access of usage of other apps
+
+A.8: No indication that device was updated when first configured TODO futher test to attempt update of device
 
 ### B1: Authentication 
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -33,6 +42,11 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | B.2.3 | The IoT-device can be isolated (ETSI 5.3) | 3 | 1 |
 | B.2.4 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 | 2 |
 
+#### Reasoning for value of implementation
+
+B.2.1: Device make use of CoAP. Traffic does not seem to be encrypted, however it does not seem to be able to make use of the format. More research on CoAP protocol needed.
+
+B.2.4 : CoAP is not the best encryption method, and has some known weaknesses
 
 ### B3: Disclosing of vulnerability
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -83,6 +97,9 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | D.1.6 | Everything enabled by default is necessary for the device (ETSI 5.6) | 3 | 2 |
 | D.1.7 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 1 |
 
+#### Reasoning for value of implementation
+D.1.1: No support period found
+
 ### D2: Physical
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
@@ -102,9 +119,6 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | E.8 | Hardcoded values are documented as such.(ETSI 5.4) | 1 | TODO |
 | E.9 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance(ETSI 5.4) | 3 | TODO |
 
-## Scoring system
+## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
 ![image](https://user-images.githubusercontent.com/76153202/160576044-33cf74d2-45ab-4b47-8c16-13884bf99d55.png)
-
-### Reasoning for value of implementation
-
