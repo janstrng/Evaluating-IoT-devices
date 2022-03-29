@@ -36,7 +36,8 @@ In addition, we were recommended to Wireshark by our supervisor. The method we u
 Burp Suite is a graphical tool that lets you test web applications.
 ![burp](https://user-images.githubusercontent.com/98017528/159920099-27b1463c-b8e9-4c1c-b910-ae2757342313.png)
 
-Using burp suite we can analyze and test how the application of the device acts
+Using burp suite we can analyze the packets that are being sent towards relevant services of the device.  
+In our case we found a web-server on a device hosting an API towards the device. We could then using proxy and interception see how the web-requests were structured and how requests were sent.
 
 ## Binwalker
 "Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images." (https://www.kali.org/tools/binwalk/)  
