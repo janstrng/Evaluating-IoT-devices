@@ -25,6 +25,13 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | B.1.5 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 3 |
 | B.1.6 | Administrator gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 | 1 |
  
+#### Reasoning for value of implementation
+
+B.1.2: The authentication area is were our research found the D-Link systems most vulnerable. As for this point didn't we really find any clear mechanism. The reason the point don't have the value of implementation on 4 is because the user has the option to enable Face-ID or Two-factor authentification.
+
+B.1.5: The only requirements passwords are 6 characters. From a security perspective is this less almost every other system with passwords. This makes it easy for the user to create an easy password.
+
+ 
 ### B2: Communication
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
@@ -71,6 +78,13 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | C.3.8 | Data collected is kept within the EU/EØS in countries that follow GDPR. | 2 | 4 |
 | C.3.9 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given. | 4 | 2 |
 | C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | 1 |
+#### Reasoning for value of implementation
+
+C.3.3: User must - "specifically requested to be removed from our databases" https://eu.dlink.com/no/nb/privacy
+
+C.3.8:  Data is transmitted to Google and Salesforce located in USA
+
+C.3.9: Response for request of data has yet to be confirmed
 
 ### D1: Updating and support
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -82,6 +96,10 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | D.1.5 | The user is able to check the software version for the device (ETSI 5.3) | 2 | 1 |
 | D.1.6 | Everything enabled by default is necessary for the device (ETSI 5.6) | 3 | 2 |
 | D.1.7 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 1 |
+
+#### Reasoning for value of implementation
+D.1.1: D-Link don't have any public date on when the support period will end, but normally announce the end of support at least three month in advance
+
 
 ### D2: Physical
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -102,19 +120,6 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | E.8 | Hardcoded values are documented as such.(ETSI 5.4) | 1 | TODO |
 | E.9 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance(ETSI 5.4) | 3 | TODO |
 
-## Scoring system
+## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
 ![image](https://user-images.githubusercontent.com/76153202/160576044-33cf74d2-45ab-4b47-8c16-13884bf99d55.png)
-
-### Reasoning for value of implementation
-B.1.2: The authentication area is were our research found the D-Link systems most vulnerable. As for this point didn't we really find any clear mechanism. The reason the point don't have the value of implementation on 4 is because the user has the option to enable Face-ID or Two-factor authentification.
-
-B.1.5: The only requirements passwords are 6 characters. From a security perspective is this less almost every other system with passwords. This makes it easy for the user to create an easy password.
-
-C.3.3: User must - "specifically requested to be removed from our databases" https://eu.dlink.com/no/nb/privacy
-
-C.3.8:  Data is transmitted to Google and Salesforce located in USA
-
-C.3.9: Response for request of data has yet to be confirmed
-
-D.1.1: D-Link don't have any public date on when the support period will end, but normally announce the end of support at least three month in advance
