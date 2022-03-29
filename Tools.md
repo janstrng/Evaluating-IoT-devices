@@ -33,6 +33,8 @@ Using wireshark on the computer running a hotspot, we would be able to see the t
 In most of our tests, we found that the packages had been encrypted, mostly by the use of Transport Layer Security (TLS).
 
 
+Wireshark works on all operating systems. That gives us flexibility, and another reason as to why we chose to use it.
+
 ## Burp Suite
 Burp Suite is a graphical tool that lets you test web applications.
 ![burp](https://user-images.githubusercontent.com/98017528/159920099-27b1463c-b8e9-4c1c-b910-ae2757342313.png)
@@ -60,7 +62,7 @@ Going into the extracted file (formated as "_filename.extracted") we found ourse
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
 
-The way we used Ettercap was with arp poisoning, and then used Wireshark and the ARP table. We followed a [guide](https://pentestmag.com/ettercap-tutorial-for-windows/) for Man-in-the-middle attacks
+The way we used Ettercap was with arp poisoning, and then used Wireshark and the ARP table. We followed a [guide](https://pentestmag.com/ettercap-tutorial-for-windows/) for Man-in-the-middle attacks. Ettercap is already installed as a package on Kali. NB! Ettercap is only compatible with Linux based OS.
 
 ## SQL injection
 Testing the application for sql-vulnerabilities we attempted injecting the text-fields of the login-page, checking for common sqli strings such that are found here: https://www.w3schools.com/sql/sql_injection.asp  
