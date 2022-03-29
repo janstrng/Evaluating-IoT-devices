@@ -92,7 +92,7 @@ The values of implementation indicate how the criteria has actually been taken i
 | B.1.3 | Process for changing passwords is described in the privacy policy/user agreement and is easy to follow. The password is actually changed. (ETSI 5.1) | 4 |  |
 | B.1.4 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 |  |
 | B.1.5 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers)  (ETSI 5.4) | 4 |  |
-| B.1.6 | Administrator gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
+| B.1.6 | Administrator/user gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
  
 ### B2: Communication 
 | Nr | Criterias | Value of consequence | Value of implementation |
