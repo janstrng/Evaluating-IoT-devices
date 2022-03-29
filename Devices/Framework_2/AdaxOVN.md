@@ -98,7 +98,6 @@
 | E.9 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance.(ETSI 5.4) | 3 | TODO |
 
 ### Reasoning for Value of implementation
-EXAMPLE:
       
       B.1.2 - Does not seems to be any limited number of fail attempts. In addition to this is a notification on correct emails.
       B.1.5 - Only criteria is 6 characters
