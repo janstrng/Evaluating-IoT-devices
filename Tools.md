@@ -27,10 +27,11 @@ The evaluation is taken into consideration when testing the security of the [int
 
 
 ## Wireshark
-Wireshark is a network protocol analyser. It is used by organizations, governments and educational institutions around the globe. We chose Wireshark because it is one of the most used tools for network analysis in the world, and therefore there would be more tutorials and cookbooks on it.
+Wireshark is a network protocol analyser. It is used by organizations, governments and educational institutions around the globe. We chose Wireshark because it is one of the most used tools for network analysis in the world, and therefore there would be more tutorials and resources.
 ![wireshark](https://user-images.githubusercontent.com/98017528/159920105-bd147713-f39a-4c41-8339-2ee758d05d3e.png)
+Using wireshark on the computer running a hotspot, we would be able to see the traffic sendt between the phone and device, towards the server. Analyzing the packages sendt, we can observe what protocol is being used and what data is being transfered.  
+In most of our tests, we found that the packages had been encrypted, mostly by the use of Transport Layer Security (TLS).
 
-In addition, we were recommended to Wireshark by our supervisor. The method we used Wireshark was to monitor traffic from the DUT. 	
 
 ## Burp Suite
 Burp Suite is a graphical tool that lets you test web applications.
