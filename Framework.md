@@ -51,7 +51,7 @@ The values of implementation indicate how the criteria has actually been taken i
 
 ## Tests
 ### A: Set up user and device
-| nr| Criterias | Value of consequence | Value of implementation |
+| Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | A.1 | The process is based on consent (GDPR 7) | 4 | |
 | A.2 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 4 |  |
