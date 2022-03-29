@@ -39,7 +39,7 @@
 | Nr | Criterias | Value of consequence | Value of implementation |
 | --- | ----------- | ----------- | ----------- |
 | C.1.1 | Default password is generated uniquely per device. (ETSI 5.1) | 4 | TODO |
-| C.1.2 | Default password does not make use of common patterns or common strings and is not related to public information.  Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters, numbers (and special characters)) (ETSI 5.1) (ETSI 5.4) | 4 | TODO |
+| C.1.2 | Default password does not make use of common patterns or common strings and is not related to public information.  Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters, numbers) (ETSI 5.1) (ETSI 5.4) | 4 | TODO |
 
 ### C2: Erasure
 | Nr | Criterias | Value of consequence | Value of implementation |
