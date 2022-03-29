@@ -1,4 +1,4 @@
-# Framework for evaluating IoT-devices
+# Framework for evaluating IoT-devices 
 
 ## Scope of framework
 The framework is a method to evaluate IoT devices aimed for stores providing the products to end-user, enthusiasts of security and private persons wanting to check their devices for security-flaws. The framework is therefore a high-level evaluation, utilizing free and available tools that can be used by people with limited (but some) technical knowledge.  
