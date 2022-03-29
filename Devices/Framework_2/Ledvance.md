@@ -109,4 +109,4 @@ C.3.9: On march 15th did we send an GDPR request to the norwegian email address 
 
 ## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
-![image](https://user-images.githubusercontent.com/76153202/160576044-33cf74d2-45ab-4b47-8c16-13884bf99d55.png)
+
