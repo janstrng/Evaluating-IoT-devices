@@ -52,9 +52,25 @@ The values of implementation indicate how the criteria has actually been taken i
 4. Criteria has not been taken into consideration and is missing this feature. Likelihood of the criteria being misused to achieve consequence is high. The threat actor has to be in a tier in the pyramid to successfully misuse the feature with no defined motivation.
 
 
-# Table of contents
-1. [Set up user and device](#A: Set up user and device)
-### A: Set up user and device
+## Performing test
+- A: Registration   
+[A: Set up user and device](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#a-set-up-user-and-device)  
+- B: Security  
+[B1: Authentication](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#b1-authentication)  
+[B2: Communication](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#b2-communication)  
+[B3: Disclosing of vulnerability](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#b3-disclosing-of-vulnerability)  
+
+- C: Data  
+[C1: Default password](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#c1-default-password)  
+[C2: Erasure](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#c2-erasure)  
+[C3: Personal data](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#c3-personal-data)  
+- D: Updates and interfaces  
+[D1: Updating and support](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#d1-updating-and-support)  
+[D2: Physical](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#d2-physical)  
+
+[E: Further tests](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#e-further-tests-that-require-specialized-knowledge)  
+
+## A: Set up user and device
 | Nr| Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | A.1 | The process is based on consent (GDPR 7) | 4 | |
@@ -78,7 +94,7 @@ The values of implementation indicate how the criteria has actually been taken i
 | B.1.5 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers)  (ETSI 5.4) | 4 |  |
 | B.1.6 | Administrator gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
  
-### B2: Security and communication 
+### B2: Communication 
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | B.2.1 | Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 |  |
