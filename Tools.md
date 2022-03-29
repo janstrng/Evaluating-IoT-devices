@@ -60,7 +60,7 @@ Going into the extracted file (formated as "_filename.extracted") we found ourse
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
 
-The way we used Ettercap was with arp poisoning, and then use Wireshark and the ARP table.
+The way we used Ettercap was with arp poisoning, and then used Wireshark and the ARP table. We followed a [guide](https://pentestmag.com/ettercap-tutorial-for-windows/) for Man-in-the-middle attacks
 
 ## SQL injection
 Testing the application for sql-vulnerabilities we attempted injecting the text-fields of the login-page, checking for common sqli strings such that are found here: https://www.w3schools.com/sql/sql_injection.asp  
