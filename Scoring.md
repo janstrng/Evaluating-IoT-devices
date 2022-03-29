@@ -8,7 +8,9 @@ The scoring system we choose to use for evaluating the IoT devices will be an qu
 - We know that the risk matrix is a subjective method of evaluation, because the implementer has to give a value that they feels is correct. Therefore should also every point have an explenation on why they get the 'value of implementation.'
 - With this method will we be able to put in every point of the framework in to the matrix to see which point of the framework every device needs to improve. 
  Here is the qualitative risk-analysis matrix we will be using for this scoring.
- (Kilde: https://www.safran.com/content/introduction-qualitative-risk-analysis).
+ 
+(Kilde: https://www.safran.com/content/introduction-qualitative-risk-analysis).
+ 
 (Kilde: https://www.microtool.de/en/knowledge-base/what-is-a-risk-matrix/)
  <br>
  
