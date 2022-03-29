@@ -69,7 +69,7 @@
 | Nr |Criterias | Value of consequence | Value of implementation |
 | --- |----------- | ----------- | ----------- |
 | D.1.1 |Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | TODO |
-| D.1.2 | | Device look for and initiate updates when first enabled if there is a new update | 3 | TODO |
+| D.1.2 | Device look for and initiate updates when first enabled if there is a new update | 3 | TODO |
 | D.1.3 |Software updates are checked automatically and periodically, and can be initiated automatically. The user should be able to manually check and install updates. (ETSI 5.3) | 4 | TODO |
 | D.1.4 | User is notified about security-updates(ETSI 5.3) | 2 | TODO |
 | D.1.5 | The user is able to check  the software version for the devis. | 2 | TODO |
@@ -93,9 +93,9 @@
 | E.4 | Update mechanism cannot be misused(ETSI 5.3) | 4 | TODO |
 | E.5 | The update mechanism is effective at verifying the authenticity of an update(ETSI 5.3) | 4 | TODO |
 | E.6 | Users have to be informed that any already processed/used personal data is still lawful, at the time withdrawal of consent is given.(GDPR 7) | 4 | TODO |
-| E.7 | Passwords are stored according to the minimum required security practice. | 4 | |
-| E.8 | Hardcoded values are documented as such(ETSI 5.4) | 1 | |
-| E.9 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance.(ETSI 5.4) | 3 | |
+| E.7 | Passwords are stored according to the minimum required security practice. | 4 | TODO |
+| E.8 | Hardcoded values are documented as such(ETSI 5.4) | 1 | TODO |
+| E.9 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance.(ETSI 5.4) | 3 | TODO |
 
 ### Reasoning for Value of implementation
 EXAMPLE:
