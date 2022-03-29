@@ -54,21 +54,21 @@ The values of implementation indicate how the criteria has actually been taken i
 
 ## Performing test
 - A: Registration   
-[A: Set up user and device](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#a-set-up-user-and-device)  
+[A: Set up user and device](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#a-set-up-user-and-device)  
 - B: Security  
-[B1: Authentication](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#b1-authentication)  
-[B2: Communication](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#b2-communication)  
-[B3: Disclosing of vulnerability](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#b3-disclosing-of-vulnerability)  
+[B1: Authentication](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#b1-authentication)  
+[B2: Communication](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#b2-communication)  
+[B3: Disclosing of vulnerability](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#b3-disclosing-of-vulnerability)  
 
 - C: Data  
-[C1: Default password](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#c1-default-password)  
-[C2: Erasure](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#c2-erasure)  
-[C3: Personal data](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#c3-personal-data)  
+[C1: Default password](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#c1-default-password)  
+[C2: Erasure](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#c2-erasure)  
+[C3: Personal data](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#c3-personal-data)  
 - D: Updates and interfaces  
-[D1: Updating and support](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#d1-updating-and-support)  
-[D2: Physical](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#d2-physical)  
+[D1: Updating and support](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#d1-updating-and-support)  
+[D2: Physical](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#d2-physical)  
 
-[E: Further tests](https://github.com/janstrng/Evaluating-IoT-devices/main/Framework.md#e-further-tests-that-require-specialized-knowledge)  
+[E: Further tests](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#e-further-tests-that-require-specialized-knowledge)  
 
 ## A: Set up user and device
 | Nr| Criterias | Value of consequence | Value of implementation |
