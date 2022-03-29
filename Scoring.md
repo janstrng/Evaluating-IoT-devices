@@ -1,19 +1,3 @@
-### A: Set up user and device
-| nr| Criterias | Method of testing | Value of consequence | Value of implementation |
-| ----------- | ----------- | ------------ | ----------- | ----------- |
-| A.1 | The process is based on consent (GDPR 7) | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 4 | 1 |
-| A.2 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 4 | 1 |
-| A.3 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 2 | 1 |
-| A.4 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 4 | 1 |
-| A.5 | The default value for a decision follows best practice for security. (ETSI 5.12) | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 2 | 1 |
-| A.6 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 2 | 1 |
-| A.7 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 1 | 1 |
-| A.8 | Device look for and initiate updates when first enabled if not latest version. | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 3 | 1 |
-| A.9 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | There are a link to privacy policy or useragreement, and everything is discribed in an understandable way, and everthing is shown properly | 2 | 1 |
-
-#### Reasoning for value of implementation
-
-
 ### Scoring system
 
 The scoring system we choose to use for evaluating the IoT devices will be an qualitative risk matrix. There is a few reasons why we have chosen this excact method of evaluting the results. Here are some important points with a risk matrix is multiple, and some of these are;
