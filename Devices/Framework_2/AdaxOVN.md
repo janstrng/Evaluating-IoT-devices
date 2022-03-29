@@ -11,7 +11,7 @@
 | A.7 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 | TODO |
 | A.8 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 | TODO |
 
-### B1:Authentication
+### B1: Authentication
 | Nr | Criterias | Value of consequence | Value of implementation |
 | --- | ----------- | ----------- | ----------- |
 | B.1.1 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 4 | TODO |
@@ -41,7 +41,7 @@
 | C.1.1 | Default password is generated uniquely per device. (ETSI 5.1) | 4 | TODO |
 | C.1.2 | Default password does not make use of common patterns or common strings and is not related to public information.  Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters, numbers (and special characters)) (ETSI 5.1) (ETSI 5.4) | 4 | TODO |
 
-### C2:Erasure
+### C2: Erasure
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ---- | ----------- | ----------- | -----------|
 | C.2.1 | User have the right to require erasure of their personal data (GDPR 17) | 4 | 1 |
@@ -51,7 +51,7 @@
 | C.2.5 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 | TODO |
 | C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | 1 |
 
-### C3:Personal data
+### C3: Personal data
 | Nr | Criterias | Value of consequence | Value of implementation |
 | -- |----------- | ----------- | ----------- |
 | C.3.1 | The user is able to edit and complete uncompleted or wrong data without undue delay.(GDPR 16) | 4 | TODO |
@@ -65,7 +65,7 @@
 | C.3.9 | Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given. | 4 | TODO |
 | C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | 1 |
 
-### D1:Updating and support
+### D1: Updating and support
 | Nr |Criterias | Value of consequence | Value of implementation |
 | --- |----------- | ----------- | ----------- |
 | D.1.1 |Support period of the device is publicly available. The device should be supported with updates for at least five years after the product has been sold. (ETSI 5.3) | 2 | TODO |
@@ -78,7 +78,7 @@
 
 
 
-### D2:Physical
+### D2: Physical
 | Nr |Criterias | Value of consequence | Value of implementation |
 | -- |----------- | ----------- | ----------- |
 | D.2.1 | Device is made of adequate physical material for its use case (enisa) | 1 | 1 |
