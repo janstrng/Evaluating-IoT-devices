@@ -171,6 +171,13 @@ The values of implementation indicate how the criteria has actually been taken i
 | E.8 | Hardcoded values are documented as such.(ETSI 5.4) | 1 |  |
 | E.9 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance(ETSI 5.4) | 3 |  |
 
+ ### Reasoning for Value of implementation 
+ 
+Under every table in should put your reasoning for every criteria that don't is 1 for value of implementation. This will keep the tables clean and simple to read. You should put a refference to which criteria you are talking about. 
+ <br>
+ EXAMPLE:<br>
+ C.10: ....
+
 ## Scoring system
 
 ### Scoring system
@@ -192,9 +199,4 @@ The scoring system we choose to use for evaluating the IoT devices will be an qu
 
 For our risk scoring have we chosen 'value of consequence' * 'value of implementation'. We have then concluded that every scor over 12 will be categorized as 'RED', every score under 4 as 'GREEN', and everything between as 'Yellow'. A 'GREEN' score means that there is a low risk of security in that point, a 'YELLOW' score will be a medium risk of security, and a 'RED' score is a high risk in security.
 
- ### Reasoning for Value of implementation 
- 
- In this area of the framwork can you put your reasoning for the value of implementation. This will keep the tables clean and simple to read. You should put a refference to which criteria you are talking about. 
- <br>
- EXAMPLE:
- C.10: ....
+
