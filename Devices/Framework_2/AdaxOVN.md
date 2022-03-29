@@ -15,10 +15,10 @@
 | Nr | Criterias | Value of consequence | Value of implementation |
 | --- | ----------- | ----------- | ----------- |
 | B.1.1 | There is no indication that user input fields are vulnerable to injection-attacks and only users with right credentials are given proper access. (ETSI 5.5) | 4 | TODO |
-| B.1.2 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 2 - Does not seems to be any limited number of fail attempts. In addition to this is a notification on correct emails.|
+| B.1.2 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 2 |
 | B.1.3 |Process for changing a password is described and easy to follow. A change of password is also actually made. (ETSI 5.1) | 4 | 1 |
 | B.1.4 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 | 1 |
-| B.1.5 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2 - only criteria is 6 characters |
+| B.1.5 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2 |
 | B.1.6 | User notification notify the administrator  about new/unauthorized changes in device software (ETSI 5.7) | 3 | TODO |
 
 ### B2: Communication
@@ -96,3 +96,8 @@
 | E.7 | Passwords are stored according to the minimum required security practice. | 4 | |
 | E.8 | Hardcoded values are documented as such(ETSI 5.4) | 1 | |
 | E.9 | Hardcoded values are protected by suitable mechanisms, including tamper-resistance.(ETSI 5.4) | 3 | |
+
+### Reasoning for Value of implementation
+EXAMPLE:
+      B.1.2 - Does not seems to be any limited number of fail attempts. In addition to this is a notification on correct emails.
+      B.1.5 - Only criteria is 6 characters
