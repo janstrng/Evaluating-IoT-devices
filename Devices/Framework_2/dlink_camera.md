@@ -106,16 +106,17 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
  ![image](https://user-images.githubusercontent.com/76153202/160571307-13a7cefa-c505-4c56-a242-b4941daf68e6.png)
 
-D.1.6: There are four open ports on the device, none that are found to be vulnerable but still make up for an attack-vector!
+### Reasoning for value of implementation
+B.1.2: The authentication area is were our research found the D-Link systems most vulnerable. As for this point didn't we really find any clear mechanism. The reason the point don't have the value of implementation on 4 is because the user has the option to enable Face-ID or Two-factor authentification.
 
 B.1.5: The only requirements passwords are 6 characters. From a security perspective is this less almost every other system with passwords. This makes it easy for the user to create an easy password.
 
 C.3.3: User must - "specifically requested to be removed from our databases" https://eu.dlink.com/no/nb/privacy
 
-C.3.9: Response for request of data has yet to be confirmed
+C.3.8:  Data is transmitted to Google and Salesforce located in USA
 
-B.1.2: The authentication area is were our research found the D-Link systems most vulnerable. As for this point didn't we really find any clear mechanism. The reason the point don't have the value of implementation on 4 is because the user has the option to enable Face-ID or Two-factor authentification.
+C.3.9: Response for request of data has yet to be confirmed
 
 D.1.1: D-Link don't have any public date on when the support period will end, but normally announce the end of support at least three month in advance
 
-C.3.8:  Data is transmitted to Google and Salesforce located in USA
+D.1.6: There are four open ports on the device, none that are found to be vulnerable but still make up for an attack-vector!
