@@ -52,7 +52,7 @@ The values of implementation indicate how the criteria has actually been taken i
 4. Criteria has not been taken into consideration and is missing this feature. Likelihood of the criteria being misused to achieve consequence is high. The threat actor has to be in a tier in the pyramid to successfully misuse the feature with no defined motivation.
 
 
-## Testing device
+# Table of contents
 1. [Set up user and device](#A: Set up user and device)
 ### A: Set up user and device
 | Nr| Criterias | Value of consequence | Value of implementation |
