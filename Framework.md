@@ -1,7 +1,7 @@
 # Framework for evaluating IoT-devices 
 
 ## Background  
-This framwork is a part of a Bachelor thesis from NTNU and is based on criterias from "*ETSI TS 103 701; Cyber Security for Consumer Internet of Things: Conformance Assessment of Baseline Requirements*", criterias we found e
+This framework is a part of a Bachelor thesis from NTNU and is based on criterias from "*ETSI TS 103 701; Cyber Security for Consumer Internet of Things: Conformance Assessment of Baseline Requirements*", criterias we found e
 ly relevant from the *General Data Protection Regulation (GDPR)* as well as "*Enisa; Guidelines for securing the Internet of Things*".  
 ## Scope of framework
 The framework is a method to evaluate IoT devices aimed for stores providing the products to end-user, enthusiasts of security and private persons wanting to check their devices for security-flaws. The framework is therefore a high-level evaluation, utilizing free and available tools that can be used by people with limited (but some) technical knowledge.  
