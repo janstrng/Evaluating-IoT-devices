@@ -104,7 +104,7 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 
 ## Scoring system
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
- ![image](https://user-images.githubusercontent.com/76153202/160571307-13a7cefa-c505-4c56-a242-b4941daf68e6.png)
+![image](https://user-images.githubusercontent.com/76153202/160576275-e407a2a8-86d8-4ec6-bb77-13d08dfaf49d.png)
 
 ### Reasoning for value of implementation
 B.1.2: The authentication area is were our research found the D-Link systems most vulnerable. As for this point didn't we really find any clear mechanism. The reason the point don't have the value of implementation on 4 is because the user has the option to enable Face-ID or Two-factor authentification.
