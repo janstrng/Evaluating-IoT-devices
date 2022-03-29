@@ -2,8 +2,8 @@
 ### A: Set up user
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ---- | ----------- | ----------- | ----------- |
-| A.1 | The process is based on consent (GDPR 7) | 4 | 0 |
-| A.2 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 4 | 0 |
+| A.1 | The process is based on consent (GDPR 7) | 4 | 1 |
+| A.2 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 4 | 1 |
 | A.3 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | TODO |
 | A.4 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | TODO | 
 | A.5 | The default value for a decision follows best practice for security. (ETSI 5.12) | 2 | TODO |
@@ -44,12 +44,12 @@
 ### C2:Erasure
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ---- | ----------- | ----------- | -----------|
-| C.2.1 | User have the right to require erasure of their personal data (GDPR 17) | 4 | TODO |
-| C.2.2| When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 | TODO |
+| C.2.1 | User have the right to require erasure of their personal data (GDPR 17) | 4 | 1 |
+| C.2.2| When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 | 1 |
 | C.2.3 | A clear confirmation is provided after deletions(ETSI 5.11) | 2 | TODO |
-| C.2.4 | Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 | TODO |
+| C.2.4 | Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 | 2 |
 | C.2.5 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 | TODO |
-| C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | TODO |
+| C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | 1 |
 
 ### C3:Personal data
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -63,7 +63,7 @@
 | C.3.7 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | TODO |
 | c.3.8 | Data collected is kept within the EU in countries that follow GDPR. | 2 | TODO |
 | C.3.9 | Communication with the company is adequate for the request that is made.  A confirmation of receival of a request is given. | 4 | TODO |
-| C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | TODO |
+| C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | 1 |
 
 ### D1:Updating and support
 | Nr |Criterias | Value of consequence | Value of implementation |
@@ -81,7 +81,7 @@
 ### D2:Physical
 | Nr |Criterias | Value of consequence | Value of implementation |
 | -- |----------- | ----------- | ----------- |
-| D.2.1 | Device is made of adequate physical material for its use case (enisa) | 1 | TODO |
+| D.2.1 | Device is made of adequate physical material for its use case (enisa) | 1 | 1 |
 | D.2.1| All exposed interfaces(physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled (ETSI 5.6) | 3 | TODO |
 
 ### E: Further tests that require specialized knowledge
