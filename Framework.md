@@ -68,7 +68,7 @@ The values of implementation indicate how the criteria has actually been taken i
 [D1: Updating and support](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#d1-updating-and-support)  
 [D2: Physical](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#d2-physical)  
 
-[E: Further tests](https://github.com/janstrng/Evaluating-IoT-devices/edit/main/Framework.md#e-further-tests-that-require-specialized-knowledge)  
+[E: Further tests](https://github.com/janstrng/Evaluating-IoT-devices/main/Framework.md#e-further-tests-that-require-specialized-knowledge)  
 
 ## A: Set up user and device
 | Nr| Criterias | Value of consequence | Value of implementation |
