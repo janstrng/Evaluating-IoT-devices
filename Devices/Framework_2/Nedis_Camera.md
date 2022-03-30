@@ -7,26 +7,27 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | A.1 | The process is based on consent (GDPR 7) | 4 | 1 |
 | A.2 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 4 | 1 |
 | A.3 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 | 1 |
-| A.4 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | 1 |
-| A.5 | The default value for a decision follows best practice for security. (ETSI 5.12) | 2 | 2 |
-| A.6 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 2 | 1 |
-| A.7 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 | 1 |
-| A.8 | Device look for and initiate updates when first enabled if not latest version. | 3 | 1 |
-| A.9 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 | 1 |
+| A.4 | The default value for a decision follows best practice for security. (ETSI 5.12) | 2 | 2 |
+| A.5 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 2 | 1 |
+| A.6 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 | 1 |
+| A.7 | Device look for and initiate updates when first enabled if not latest version. | 3 | 1 |
+| A.8 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 | 1 |
 
 ### B1: Authentication 
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | B.1.1 | There is no indication that user input fields are vulnerable for injection-attacks and only users with right credentials are given proper access(ETSI 5.5) | 4 | 1 |
-| B.1.2 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 1|
-| B.1.3 | Process for changing passwords is described in the privacy policy/user agreement and is easy to follow. The password is actually changed. (ETSI 5.1) | 4 | 1 |
-| B.1.4 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 | 1 |
-| B.1.5 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2 |
-| B.1.6 | Administrator gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 | 1 |
+| B.1.2 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 | 1 |
+| B.1.3 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 1|
+| B.1.4 | Process for changing passwords is described in the privacy policy/user agreement and is easy to follow. The password is actually changed. (ETSI 5.1) | 4 | 1 |
+| B.1.5 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 | 1 |
+| B.1.6 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2 |
+| B.1.7 | Administrator gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 | 1 |
  
 #### Reasoning for value of implementation
 
-B.1.5: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
+B.1.6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
+
 ### B2: Communication
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
