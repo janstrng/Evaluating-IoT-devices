@@ -175,7 +175,7 @@ The values of implementation indicate how the criteria has actually been taken i
 Under every table in should put your reasoning for every criteria that don't is 1 for value of implementation. This will keep the tables clean and simple to read. You should put a refference to which criteria you are talking about. 
  <br>
  EXAMPLE:<br>
- C.10: ....
+ B.1.6: Password only required 6 characters, with a combination of letters and number. With no requirement on big or small letters
 
 ## Scoring system
 
