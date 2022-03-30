@@ -54,10 +54,10 @@ B.1.6: Two of the user decision had a default on. These were "Data analysis" and
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | C.2.1 | User have the right to require erasure of their personal data (GDPR 17) | 4 | 1 |
-| C.2.2 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 | TODO |
-| C.2.3 | A clear confirmation is provided after deletions(ETSI 5.11) | 2 | TODO |
+| C.2.2 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 | 1 |
+| C.2.3 | A clear confirmation is provided after deletions(ETSI 5.11) | 2 | 1 |
 | C.2.4 | Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 | 1 |
-| C.2.5 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 | TODO |
+| C.2.5 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 | 1 |
 | C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | 1 |
 
 ### C3: Personal data
