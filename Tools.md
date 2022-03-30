@@ -5,6 +5,14 @@
 The environment the tests are performed in are set up using a computer acting as a router using it as a hotspot or proxy. This way we will be able to easily gather the data that is being transported from the devices.  
 A secondary computer running Kali, also connected to the hotspot, acts as an attacker attempting to gain access or control over the device. The reason why we used a hotspot and not a dedicated network was because we used the normal campus network, and therefore it would be difficult to filter traffic.
 
+Our setup was not ideal, we would have liked to have had a dedicated network and router. 
+
+In our opinion the ideal setup would include the following:
+- Dedicated network
+- Router
+- Two pcs, where atleast one of them are running Kali
+- All of the programs listed beleow
+
 
 ## Kali Linux
 ![kali](https://user-images.githubusercontent.com/98017528/159913136-72ea965a-3430-41c5-932d-ab37b8b7999e.png)
