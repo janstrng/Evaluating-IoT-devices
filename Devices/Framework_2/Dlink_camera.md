@@ -59,9 +59,14 @@ B.1.6: The only requirements passwords are 6 characters. From a security perspec
 | C.2.1 | User have the right to require erasure of their personal data (GDPR 17) | 4 | 1 |
 | C.2.2 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 | TODO |
 | C.2.3 | A clear confirmation is provided after deletions(ETSI 5.11) | 2 | TODO |
-| C.2.4 | Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 | 1 |
+| C.2.4 | Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 | 2 |
 | C.2.5 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 | TODO |
-| C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | 1 |
+| C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 | 2 |
+
+#### Reasoning for value of implementation
+C.2.4: User have to visit dlink webpages on their computer to delete an account
+
+c.2.6: No desicribtion was found.
 
 ### C3: Personal data
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -81,7 +86,7 @@ B.1.6: The only requirements passwords are 6 characters. From a security perspec
 #### Reasoning for value of implementation
 C.3.3: User must - "specifically requested to be removed from our databases" https://eu.dlink.com/no/nb/privacy
 
-C.3.8:  Data is transmitted to Google and Salesforce located in USA
+C.3.8: Data is transmitted to Google and Salesforce located in USA
 
 C.3.9: Response for request of data has yet to be confirmed
 
