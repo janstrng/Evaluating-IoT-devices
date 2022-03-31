@@ -70,7 +70,7 @@ This section is about the device physical aspects.
 Here will “adequate physical material” mean that the material will not be easily broken into, either by mistake or with intent. If the device is to be used outdoors/public the requirement will rise. 
 
 #### D.2.2: All exposed interfaces (Physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled(ETSI 5.6)
-Here will “adequate physical material” mean that the material will not be easily broken into, ither by mistake or with intent. If the device is to be used outdoors/public the requirement will rise.
+Any open USB or other “entrances” to the devise it closed/covered if it is not used by the user.
 
 ## E: Further tests that require specialized knowledge
 In E we have all the point that require specialized knowledge. We will not give any methods for these points, but we include them because of the relevancy.
