@@ -72,7 +72,7 @@ Going into the extracted file (formated as "_filename.extracted") we found ourse
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
 
-The way we used Ettercap was with arp poisoning, and then used Wireshark and the ARP table. We followed a [guide](https://pentestmag.com/ettercap-tutorial-for-windows/) for Man-in-the-middle attacks. Ettercap is already installed as a package on Kali. 
+The way we used Ettercap was with arp poisoning, and then used Wireshark and the ARP table. This is a Man-in-the-Middle attack. We followed a [guide](https://pentestmag.com/ettercap-tutorial-for-windows/) for Man-in-the-middle attacks. Ettercap is already installed as a package on Kali. 
 
 NB! Ettercap is only compatible with Linux based OS.
 
