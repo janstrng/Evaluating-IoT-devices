@@ -121,4 +121,4 @@ D.1.1: No support period found
 
 ## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
-![image](https://user-images.githubusercontent.com/76153202/160603498-7a7ddc27-2940-49e7-985c-e2cd2a807e02.png)
+![image](https://user-images.githubusercontent.com/76153202/161019904-4786d98c-d7e0-4c22-8199-d00d1e158c58.png)
