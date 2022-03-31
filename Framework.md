@@ -183,7 +183,7 @@ Under every table in should put your reasoning for every criteria that don't is 
 
 The scoring system we choose to use for evaluating the IoT devices will be an qualitative risk matrix. There is a few reasons why we have chosen this excact method of evaluting the results. Here are some important points with the risk matrix:
 - We have used the risk matrix multiple times before with success. We find it easy to understand, and very useful.
-- the matrix identifies project risks
+- The matrix identifies project risks
 - The matrix shows, and identifies the risk criteria without any unnecessary advanced method
 - Shows every identified risk criteria in a simple and understandable way 
 - We know that the risk matrix is a subjective method of evaluation, because the implementer has to give a value that they feels is correct. Therefore every point should have an explenation on why they get the 'value of implementation.'
