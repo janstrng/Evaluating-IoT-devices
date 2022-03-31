@@ -19,7 +19,7 @@ To check if the input fields for the device/app is protected against attacks, yo
 This point may be difficult to check, but if you are able to change the device setting without proper authorizations, should an “alarm” go off for the device controler/company and the user should get notified. 
 
 ## B2: Security and communication
-
+In this section the most important points are those rergarding cryptographics. What we want to know is what sort of encryption the traffic to and from the device uses. This can be quite hard to find out, but it should be possible. What we demand of the device is that it uses an appropriate encryption algorithm for the task. For example a light bulb does no need the same encryption as a peacemaker. 
 
 ## B3: Disclosing of vulnerability
 Disclosing of vulnerability  has only two point. In the first you will have to find the vulnerability policy, it may be on the app/application for the device, but normally it will be on its website. A quick google search like “Company_Name vulnerability policy”, will normally do the trick. On the second point about “…act upon vulnerabilities … in a timely manner…”, here we do not expect you to find a vulnerability and then wait for the company to fix it. Instead, you can look for earlier vulnerabilities and se how long they took to fix them.
