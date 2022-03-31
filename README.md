@@ -7,4 +7,4 @@ Under [Tools.md](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/To
 
 In the [Devices](https://github.com/janstrng/Evaluating-IoT-devices/tree/main/Devices/Framework_2) folder you will find some examples of tests that we have performed on IoT-devices and how we evaluated them using the framework.
 
-In [Method.md](https://github.com/hanstrng/Evaluatii-IoT-devices/blob/main/Method.md) you will find out our methodology on how to score the individual points in the framework
+In [Method.md](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md) you will find out our methodology on how to score the individual points in the framework
