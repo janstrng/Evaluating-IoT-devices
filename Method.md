@@ -7,7 +7,7 @@ The main method of evaluating “Set up user” is to go trough the normal setup
 #### A.1: The process is based on consent (GDPR 7)
 The first point is a general point for that the whole process from start to finished is consensual, with that we mean that the user have to agree for things to apply to them and the user understands what they are agreeing to. 
 
-### A.6 Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12)
+#### A.6: Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12)
 
 ## B1: Authentication
 Authentication is mostly about the authentications you use to connect to the device/app, often will the username be you email and therefore the password is of more importance than the username. The method you will use to test these points is to first try to change password and figure out the password requirements how long it is, is it required to use special character and numbers. Then you can try to brute force your way into the device/app, it is enough to try the wrong password a handful of times manually. The device/app should have some countermeasure for this. For the third point “Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5)”, it is possible to check it by being logged into two devises and changing the password on one off them, the other devise should then be logged off automatically or give you the chose to do so. 
