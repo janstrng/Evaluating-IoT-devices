@@ -22,7 +22,7 @@ This point may be difficult to check, but if you are able to change the device s
 
 
 ## B3: Disclosing of vulnerability
-Disclosing of vulnerability  has only two point. In the first you will have to find the vulnerability policy, it may be on the app/application for the device, but normally it will be on its website. A quick google search like “Company_Name vulnerability policy”, will normally do the trick. On the second point about “…act upon vulnerabilities … in a timely manner…”, here we don’t expect you to find a vulnerability and then wait for the company to fix it. Instead, you can look for earlier vulnerabilities and se how long they took to fix them.
+Disclosing of vulnerability  has only two point. In the first you will have to find the vulnerability policy, it may be on the app/application for the device, but normally it will be on its website. A quick google search like “Company_Name vulnerability policy”, will normally do the trick. On the second point about “…act upon vulnerabilities … in a timely manner…”, here we do not expect you to find a vulnerability and then wait for the company to fix it. Instead, you can look for earlier vulnerabilities and se how long they took to fix them.
 
 ## C1: Default password
 If the device uses a generated password, it is important to check if this password is unique to this devise and not used for every device of this kind. It will also have to follow the minimum requirement of having 8 character and having at least one character from each character group (big letters, small letters, and numbers (special characters)). If the device dose not use a default password, then you can give full score for these points.
