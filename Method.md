@@ -1,5 +1,5 @@
 # Method for evaluation
-This is our methodology for scoring the different points in the [Framework.md](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md)
+This is our methodology for scoring the different points, and some more information about the points in the [Framework.md](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md).
 
 ## A: Set up user and device   
 The main method of evaluating “Set up user” is to go trough the normal setup of the devise and corresponding applications (normally an app on a phone). Everything from setting up your user account to getting the device to function is taken into consideration inn “Set up user”. It is also important to read any documentation like a “user agreement” or similar.  It is important to mention that this “test” dose not care about any difficulty you may have when setting up the device, as this is a security test for the device.
