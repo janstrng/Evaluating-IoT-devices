@@ -196,6 +196,6 @@ The scoring system we choose to use for evaluating the IoT devices will be an qu
  <br>
 ![image](https://user-images.githubusercontent.com/76153202/160591156-b4721dc1-6180-4af3-a676-3f527658382e.png)
 
-For our risk scoring have we chosen 'value of consequence' * 'value of implementation'. We have then concluded that every scor over 12 will be categorized as 'RED', every score under 4 as 'GREEN', and everything between as 'Yellow'. A 'GREEN' score means that there is a low risk of security in that point, a 'YELLOW' score will be a medium risk of security, and a 'RED' score is a high risk in security.
+For our risk scoring have we chosen 'value of consequence' * 'value of implementation'. We have then concluded that every score over 12 will be categorized as 'RED', every score under 4 as 'GREEN', and everything between as 'Yellow'. A 'GREEN' score means that there is a low risk of security, a 'YELLOW' score will be a medium risk of security, and a 'RED' score is a high risk in security.
 
 
