@@ -122,5 +122,7 @@ D.1.1: No support period found
 ## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
 ![ecovacs](https://user-images.githubusercontent.com/98017528/161040028-394e02b5-59f9-4693-8556-223261c0cc73.png)
+
+## Conclution
 The product has some conserns when it comes to sharing of data set as default in the application, as it would be more secure to collect and share the minimum amount. During setup of the device there was no indication that the device was looking for or initiating an update, however more research is requiered to say this with certainty.
 The device uses "Constrained Application Protocol" witch in it self is not a secure way of communication, but one can argue that what is being transmitted won't be of use for a potential attacker.
