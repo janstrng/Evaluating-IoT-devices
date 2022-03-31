@@ -89,7 +89,7 @@ B.2.4 : CoAP is not the best encryption method, and has some known weaknesses
 ### D1: Updating and support
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| D.1.1 | Support period of the device is public available and a 5 years with updates after sale(Andrij) | 2 | 4 |
+| D.1.1 | Support period of the device is public available and a 5 years with updates after sale | 2 | 4 |
 | D.1.2 | The device looks for updates and initiate updates when first enabled if there is a new update (ETSI 5.3) | 3 | 1 |
 | D.1.3 | Software updates are automatically and periodically checked and initiated. It is recommended to give the user the ability to manually check and install updates. (ETSI 5.3) | 4 | 1 |
 | D.1.4 | The user is notified about critical security-updates (ETSI 5.3) | 2 | 1 |
