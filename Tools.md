@@ -5,6 +5,8 @@
 The environment the tests are performed in are set up using a computer acting as a router using it as a hotspot or proxy. This way we will be able to easily gather the data that is being transported from the devices.  
 A secondary computer running Kali, also connected to the hotspot, acts as an attacker attempting to gain access or control over the device. The reason why we used a hotspot and not a dedicated network was because we used the normal campus network, and therefore it would be difficult to filter traffic.
 
+We would strongly recomend using Linux based operating systems because there are more tools made for it, and it will make it easier to test the devices.
+
 Our setup was not ideal, we would have liked to have had a dedicated network and router. 
 
 In our opinion the ideal setup would include the following:
@@ -70,7 +72,9 @@ Going into the extracted file (formated as "_filename.extracted") we found ourse
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
 
-The way we used Ettercap was with arp poisoning, and then used Wireshark and the ARP table. We followed a [guide](https://pentestmag.com/ettercap-tutorial-for-windows/) for Man-in-the-middle attacks. Ettercap is already installed as a package on Kali. NB! Ettercap is only compatible with Linux based OS.
+The way we used Ettercap was with arp poisoning, and then used Wireshark and the ARP table. We followed a [guide](https://pentestmag.com/ettercap-tutorial-for-windows/) for Man-in-the-middle attacks. Ettercap is already installed as a package on Kali. 
+
+NB! Ettercap is only compatible with Linux based OS.
 
 ## SQL injection
 Testing the application for sql-vulnerabilities we attempted injecting the text-fields of the login-page, checking for common sqli strings such that are found here: https://www.w3schools.com/sql/sql_injection.asp  
