@@ -21,12 +21,9 @@ NOTE: Every criteria with the value of implementation as 'TODO' is not valued. T
 | B.1.3 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 | 1|
 | B.1.4 | Process for changing passwords is described in the privacy policy/user agreement and is easy to follow. The password is actually changed. (ETSI 5.1) | 4 | 1 |
 | B.1.5 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 | 1 |
-| B.1.6 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 2 |
+| B.1.6 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers(special characters))  (ETSI 5.4) | 4 | 1 |
 | B.1.7 | Administrator gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 | 1 |
  
-#### Reasoning for value of implementation
-
-B.1.6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
 
 ### B2: Communication
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -75,8 +72,8 @@ B.1.6: Two of the user decision had a default on. These were "Data analysis" and
 | C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | 1 |
 
 #### Reasoning for value of implementation
-
 C.3.8: "Personal data may be transferred to other legal entities within the Datwyler Group located in countries inside and/or outside the European Union"
+
 ### D1: Updating and support
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
@@ -87,6 +84,10 @@ C.3.8: "Personal data may be transferred to other legal entities within the Datw
 | D.1.5 | The user is able to check the software version for the device (ETSI 5.3) | 2 | 1 |
 | D.1.6 | Everything enabled by default is necessary for the device (ETSI 5.6) | 3 | 2 |
 | D.1.7 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 | 1 |
+#### Reasoning for value of implementation
+D.1.6: Two of the user decision had a default on. These were "Data analysis" and "Personalization". This is again not the most dangerous breaches, but can make the IoT devices slightly more vulnerable
+
+
 
 ### D2: Physical
 | Nr | Criterias | Value of consequence | Value of implementation |
