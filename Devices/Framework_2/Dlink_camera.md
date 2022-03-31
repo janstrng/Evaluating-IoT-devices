@@ -131,3 +131,8 @@ D.1.6: There are four open ports on the device, none that are found to be vulner
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
 ![image](https://user-images.githubusercontent.com/76153202/160576275-e407a2a8-86d8-4ec6-bb77-13d08dfaf49d.png)
 
+## Conclusion
+
+In regards to usage of personal data D-link has not implemented a simple functionality for the user to erase their data in a simple manner. When contacting the norwegian GDPR-comitee of D-link, no response has yet to arrive (25 days as of writing).  
+When testing "mydlink" application for brute-force attack it seemed that a simple work-around was to restart the application. Thereby there is no limit on number of attempts to login.  
+The application did also allow for weak passwords, only requiering six characters from a single character group with no check for the complexity or common usage.
