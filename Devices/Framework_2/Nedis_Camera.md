@@ -113,4 +113,4 @@ In the matrix below have we just put the points that stands out, and where basic
 ![image](https://user-images.githubusercontent.com/76153202/161019453-72c95a0a-a417-422b-bb8c-d31ac31d26a7.png)
 
 ## Conclution
-Over all, the product and its application has implemented security into its product quite well and does not lift any red flags.
+Over all, the product and its application has implemented security into its product quite well and no obvious vulnerablity has been found. There are some options we woudl prefer to be disabled as a default to reduce the amount and kind of data that is transmitted.
