@@ -1,3 +1,9 @@
+## Device
+
+![image](https://user-images.githubusercontent.com/76153202/161020338-8ae8ffc3-21d7-48c1-9091-7c30e929f8f9.png)
+
+
+
 ## Tests
 NOTE: Every criteria with the value of implementation as 'TODO' is not valued. The reasoning for this is either time, knowledge or equipment.
 
