@@ -72,7 +72,7 @@ The values of implementation indicate how the criteria has actually been taken i
 ## A: Set up user and device
 | Nr| Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| A.1 | The process is based on consent (GDPR 7) | 4 | |
+| [A.1](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#a1-the-process-is-based-on-consent-gdpr-7) | The process is based on consent (GDPR 7) | 4 | |
 | A.2 | The user knows what they accepts, the possibility to know what consent means regarding the setup of the user | 4 |  |
 | A.3 | Security-relevant user decision is covered by the documentation and a recommendation is given (ETSI 5.12) | 2 |  |
 | A.4 | The default value for a decision follows best practice for security. (ETSI 5.12) | 2 |  |
@@ -85,13 +85,13 @@ The values of implementation indicate how the criteria has actually been taken i
 ### B1: Authentication 
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| B.1.1 | There is no indication that user input fields are vulnerable for injection-attacks and only users with right credentials are given proper access(ETSI 5.5) | 4 |  |
-| B.1.2 | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 |  |
+| [B.1.1](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#b11-and-b12-userdata-input-fields) | There is no indication that user input fields are vulnerable for injection-attacks and only users with right credentials are given proper access(ETSI 5.5) | 4 |  |
+| [B.1.2](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#b11-and-b12-userdata-input-fields) | Every data input validation method is effective for validating the corresponding data input. The validation does not provide an indication that any data input does not protect against the processing of unexpected data inputs. ETSI 5.13 | 4 |  |
 | B.1.3 | Log-in mechanism is protected from brute-force attacks by making it impractical to execute due to; <ul><li> time delay between failed attempts, or; </li><li>limited number of failed attempts, or; </li><li> Required two factor authentication. </li></ul> (ETSI 5.1) | 4 |  |
 | B.1.4 | Process for changing passwords is described in the privacy policy/user agreement and is easy to follow. The password is actually changed. (ETSI 5.1) | 4 |  |
 | B.1.5 | Users must be authenticated towards the device to have access to its functionalities and interfaces. (ETSI 5.5) | 4 |  |
 | B.1.6 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers)  (ETSI 5.4) | 4 |  |
-| B.1.7 | Administrator/user gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
+| [B.1.7](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#b17-administratoruser-gets-notifies-about-newunauthorized-changes-in-device-software-etsi-57) | Administrator/user gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
  
 ### B2: Security and communication 
 | Nr | Criterias | Value of consequence | Value of implementation |
@@ -120,24 +120,24 @@ The values of implementation indicate how the criteria has actually been taken i
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | C.2.1 | User have the right to require erasure of their personal data (GDPR 17) | 4 |  |
-| C.2.2 | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 |  |
+| [C.2.2](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c22-when-a-user-requests-erasure-of-data-third-parties-of-the-company-that-have-the-data-will-also-erase-the-datagdpr-17-etsi-511) | When a user requests erasure of data, third-parties of the company that have the data, will also erase the data.(GDPR 17) (ETSI 5.11) | 4 |  |
 | C.2.3 | A clear confirmation is provided after deletions(ETSI 5.11) | 2 |  |
 | C.2.4 | Users can make use of a simple functionality to erase their user data.(ETSI 5.11) | 4 |  |
-| C.2.5 | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 |  |
+| [C.2.5](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c25-nothing-indicates-that-the-user-data-is-not-erased-etsi-511) | Nothing indicates that the user data is not erased(ETSI 5.11) | 4 |  |
 | C.2.6 | Privacy policy or user agreement covers how to erase, or delete personal data(ETSI 5.11) | 3 |  |
 
 ### C3: Personal data
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| C.3.1 | The user is able to edit and complete wrong and uncomplete data without undue delay (GDPR 16) | 4 |  |
-| C.3.2 | All decisions about the user's personal data are based on consent.(GDPR 7) | 4 |  |
-| C.3.3 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 |  |
+| [C.3.1](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c31-the-user-is-able-to-edit-and-complete-wrong-and-uncomplete-data-without-undue-delay-gdpr-16) | The user is able to edit and complete wrong and uncomplete data without undue delay (GDPR 16) | 4 |  |
+| [C.3.2](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c32-all-decisions-about-the-users-personal-data-are-based-on-consentgdpr-7) | All decisions about the user's personal data are based on consent.(GDPR 7) | 4 |  |
+| [C.3.3](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c33-users-are-able-to-withdraw-their-consent-to-use-personal-data-and-the-processing-of-personal-data-at-any-time-and-the-process-to-withdraw-is-easy-to-find-and-understandgdpr-7etsi-514) | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 |  |
 | C.3.4 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 |  |
-| C.3.5 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 |  |
-| C.3.6 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
+| [C.3.5](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c35-the-user-is-informed-about-how-to-express-consent-opt-in-choice-to-the-different-processes-their-personal-data-may-be-a-part-of-etsi-514) | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 |  |
+| [C.3.6](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c36-the-user-shall-be-provided-with-all-the-data-the-controllercompany-has-of-the-user-within-one-month-from-the-receipt-gdpr-12) | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
 | C.3.7 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |  |
 | C.3.8 | Data collected is kept within GDPR-complient countries, and preferabli within Europe| 2 | |
-| C.3.9 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given. | 4 | |
+| [C.3.9](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c39-communication-with-the-company-is-adequate-for-the-request-that-is-made-a-confirmation-of-receival-of-a-request-is-given) | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given. | 4 | |
 | C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | |
 
 ### D1: Updating and support
@@ -148,14 +148,14 @@ The values of implementation indicate how the criteria has actually been taken i
 | D.1.3 | Software updates are automatically and periodically checked and initiated. It is recommended to give the user the ability to manually check and install updates. (ETSI 5.3) | 4 |  |
 | D.1.4 | The user is notified about critical security-updates (ETSI 5.3) | 2 |  |
 | D.1.5 | The user is able to check the software version for the device (ETSI 5.3) | 2 |  |
-| D.1.6 | Everything enabled by default is necessary for the device (ETSI 5.6) | 3 |  |
+| [D.1.6](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#d16-everything-enabled-by-default-is-necessary-for-the-device-etsi-56) | Everything enabled by default is necessary for the device (ETSI 5.6) | 3 |  |
 | D.1.7 | Every debug interface enabled is required, and can be disabled (ETSI 5.6) | 4 |  |
 
 ### D2: Physical
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| D.2.1 | Device is made by adequate physical material for its use case (Enisa) | 1 |  |
-| D.2.1 | All exposed interfaces (Physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled(ETSI 5.6) | 3 |  |
+| [D.2.1](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#d21-device-is-made-by-adequate-physical-material-for-its-use-case-enisa) | Device is made by adequate physical material for its use case (Enisa) | 1 |  |
+| [D.2.2](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#d22-all-exposed-interfaces-physical-are-covered-protected-or-enabled-as-required-and-accessible-physical-debug-interfaces-are-disabledetsi-56) | All exposed interfaces (Physical) are covered, protected or enabled as required, and accessible physical debug interfaces are disabled(ETSI 5.6) | 3 |  |
 
 ### E: Further tests that require specialized knowledge
 | Nr | Criterias | Value of consequence | Value of implementation |
