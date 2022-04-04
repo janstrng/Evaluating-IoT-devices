@@ -1,6 +1,8 @@
 # D-link compact full hd wi-fi camera
 ![DCS-6100LH_A1_Image_side1](https://user-images.githubusercontent.com/98017528/161533654-160684c6-d829-4cdb-a42b-a59a079270e7.png)
 
+The D-link compact full hd wi-fi camera is an IoT surveilence camera you can use with an application to monitor your house. Embedded with the smart camera is also a microphone that is used to record sound where you have placed the device.
+
 ## Tests
 NOTE: Every criteria with the value of implementation as 'TODO' is not valued. The reasoning for this is either time, knowledge or equipment.
 
