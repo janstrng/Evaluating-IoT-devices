@@ -1,3 +1,6 @@
+# D-link compact full hd wi-fi camera
+![DCS-6100LH_A1_Image_side1](https://user-images.githubusercontent.com/98017528/161533654-160684c6-d829-4cdb-a42b-a59a079270e7.png)
+
 ## Tests
 NOTE: Every criteria with the value of implementation as 'TODO' is not valued. The reasoning for this is either time, knowledge or equipment.
 
@@ -133,6 +136,7 @@ In the matrix below have we just put the points that stands out, and where basic
 ## Conclusion
 
 In regards to usage of personal data D-link has not implemented a simple functionality for the user to erase their data in a simple manner. When contacting the norwegian GDPR-comitee of D-link, no response has yet to arrive (25 days as of writing).  
+
 When testing "mydlink" application for brute-force attack it seemed that a simple work-around was to restart the application. Thereby there is no limit on number of attempts to login.  
 The application did also allow for weak passwords, only requiering six characters from a single character group with no check for the complexity or common usage.  
 Over all, the product has some security issues in regards to both security and processing of personal data and we are not happy with how d-link has taken security of the user into consideration. No obvious vulnerability has been found in the camera, but the application one 'must' use with it, has some indications to weaknesses when it comes to authentication.
