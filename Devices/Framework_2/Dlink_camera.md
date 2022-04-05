@@ -134,7 +134,7 @@ D.1.6: There are four open ports on the device, none that are found to be vulner
 
 ## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
-![image](https://user-images.githubusercontent.com/76153202/161019641-c3b35645-7ee1-4988-8b7e-0bc4ed3f30f4.png)
+![image](https://user-images.githubusercontent.com/76153202/161736425-0d3373d7-b85c-4c1b-9c91-13f24cb5a351.png)
 ## Conclusion
 
 In regards to usage of personal data D-link has not implemented a simple functionality for the user to erase their data in a simple manner. When contacting the norwegian GDPR-comitee of D-link, no response has yet to arrive (25 days as of writing).  
