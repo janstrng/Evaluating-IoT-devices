@@ -108,5 +108,5 @@ C.3.8: "Personal data may be transferred to other legal entities within the Datw
 
 ## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
-![image](https://user-images.githubusercontent.com/76153202/161019515-dbaf33ac-0ad5-4c42-bb67-7964b573d7cc.png)
+![image](https://user-images.githubusercontent.com/76153202/161737147-053776b3-4148-4263-9cce-4b3bc037e154.png)
 
