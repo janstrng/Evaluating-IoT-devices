@@ -139,14 +139,14 @@ The values of implementation indicate how the criteria has actually been taken i
 | [C.3.5](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c35-the-user-is-informed-about-how-to-express-consent-opt-in-choice-to-the-different-processes-their-personal-data-may-be-a-part-of-etsi-514) | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 |  |
 | [C.3.6](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c36-the-user-shall-be-provided-with-all-the-data-the-controllercompany-has-of-the-user-within-one-month-from-the-receipt-gdpr-12) | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 |  |
 | C.3.7 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 |  |
-| C.3.8 | Data collected is kept within GDPR-complient countries, and preferabli within Europe| 2 | |
+| C.3.8 | Data collected is kept within GDPR-compliant countries, and preferably within Europe. | 2 | |
 | [C.3.9](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#c39-communication-with-the-company-is-adequate-for-the-request-that-is-made-a-confirmation-of-receival-of-a-request-is-given) | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given. | 4 | |
 | C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | |
 
 ### D1: Updating and support
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| D.1.1 | Support period of the device is public available and a 5 years with updates after sale(5 år?) | 2 |  |
+| D.1.1 | Support period of the device is public available and the device is updates in a auspicious time after the sale starts. | 2 |  |
 | D.1.2 | The device looks for updates and initiate updates when first enabled if there is a new update (ETSI 5.3) | 3 |  |
 | D.1.3 | Software updates are automatically and periodically checked and initiated. It is recommended to give the user the ability to manually check and install updates. (ETSI 5.3) | 4 |  |
 | D.1.4 | The user is notified about critical security-updates (ETSI 5.3) | 2 |  |
