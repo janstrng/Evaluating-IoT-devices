@@ -82,7 +82,7 @@ The values of implementation indicate how the criteria has actually been taken i
 | A.5 | Decision taken by the user is understandable for a user with limited technical knowledge (ETSI 5.12) | 2 |  |
 | A.6 | Every decision taken by the user (prominently requested during setup) is necessary regarding the use of the device (ETSI 5.12) | 1 |  |
 | A.7 | Device look for and initiate updates when first enabled if not latest version. | 3 |  |
-| A.8 | Easy to use and read support material for users with limited technical knowledge. In addition the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 |  |
+| A.8 | Easy to use and read support material for users with limited technical knowledge. In addition, the model designation shall be easy to find by several different methods, i.e. on the product itself, on the box it came in or the app (ETSI 5.3). | 2 |  |
 
 
 ### B1: Authentication 
