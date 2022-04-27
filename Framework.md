@@ -12,6 +12,9 @@ The framework is not a methodology of how to performe a penetration-test or find
 The framework does not include criteria for implementation of functionalities and will not make use of methods that require specialized knowledge such as code-reviewing and vulnerability-hunting/ research.
 The main focus of the framework are for devices that primarily use Wifi as a method of communication, thus other protocols such as Zigbee and Z-wave have been left out of the scope.
 
+## How to use
+You use the framework by taking one device at a time and going through the points on the list below. You will most likely have to register an account on the corresponding app for the device, and this registration prosses is also a part of the evaluation. Some off the point may have a similar result, especially if the devices you test are from the same company/manufacturer and/or are using the same app. You can either download the file or you can print it out, and then fill in the “Value of implementation”.
+
 ## Definitions of Values
 
 ### Threat actors
