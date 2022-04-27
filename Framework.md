@@ -13,7 +13,7 @@ The framework does not include criteria for implementation of functionalities an
 The main focus of the framework are for devices that primarily use Wifi as a method of communication, thus other protocols such as Zigbee and Z-wave have been left out of the scope.
 
 ## How to use
-You use the framework by taking one device at a time and going through the points on the list below. You will most likely have to register an account on the corresponding app for the device, and this registration prosses is also a part of the evaluation. Some off the point may have a similar result, especially if the devices you test are from the same company/manufacturer and/or are using the same app. You can either download the file or you can print it out, and then fill in the “Value of implementation”.
+You use the framework by taking one device at a time and going through the points on the list below. You will most likely have to register an account on the corresponding app for the device, and this registration prosses is also a part of the evaluation. Some off the point may have a similar result, especially if the devices you test are from the same company/manufacturer and/or are using the same app. You can either download the file or you can print it out, and then fill in the “Value of implementation”, thereafter you fill in the score matrix.
 
 ## Definitions of Values
 
