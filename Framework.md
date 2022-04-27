@@ -72,7 +72,7 @@ The values of implementation indicate how the criteria has actually been taken i
 
 - [E: Further tests](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Framework.md#e-further-tests-that-require-specialized-knowledge)  
 
-## A: Set up user and device
+### A: Set up user and device
 | Nr| Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | [A.1](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#a1-the-process-is-based-on-consent-gdpr-7) | The process is based on consent (GDPR 7) | 4 | |
