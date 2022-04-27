@@ -100,7 +100,7 @@ The values of implementation indicate how the criteria has actually been taken i
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | B.2.1 | Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 |  |
-| B.2.2 | All cryptographics detail are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 4 |  |
+| B.2.2 | All cryptographic details are configured appropriately, is not known to be vulnerable and considered best practice(ETSI 5.1, 5.5, 5.8) | 4 |  |
 | B.2.3 | The IoT-device can be isolated (ETSI 5.3) | 3 |  |
 | B.2.4 | The level of security and mechanism used is appropriate for the use case of secure communication(ETSI 5.5) | 4 |  |
 
