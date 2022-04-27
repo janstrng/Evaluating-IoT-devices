@@ -108,7 +108,7 @@ The values of implementation indicate how the criteria has actually been taken i
 ### B3: Disclosing of vulnerability
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| B.3.1 | The Vulnerability disclosure policy of the company/organization is available for anybody/user, and contains contact information. (ETSI 5.2) | 4 |  |
+| B.3.1 | The Vulnerability disclosure policy of the company/organization is available for anybody/user and contains contact information. (ETSI 5.2) | 4 |  |
 | B.3.2 | The company/organization is also required to act upon vulnerabilities sent to the user contact in a timely manner (60-120 business days)(ETSI 5.2)  | 4 |  |
 
 ### C1: Default password
