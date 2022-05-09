@@ -122,4 +122,4 @@ D.1.1: D-Link don't have any public date on when the support period will end, bu
 
 ## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
-![image](https://user-images.githubusercontent.com/76153202/161736648-ec61c59c-e5de-48a9-9ca3-186fdbb9d4cf.png)
+![image](https://user-images.githubusercontent.com/76153202/167354973-9d058062-0564-47cf-9db5-494f9d095531.png)
