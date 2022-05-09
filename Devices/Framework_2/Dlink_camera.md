@@ -81,7 +81,7 @@ c.2.6: No desicribtion was found.
 | C.3.3 | Users are able to withdraw their consent to use personal data and the processing of personal data at any time. And the process to withdraw is easy to find and understand.(GDPR 7)(ETSI 5.14) | 4 | 2 |
 | C.3.4 | The user has access to an easy to understand description about how personal data is being used, by whom, and for what purposes, as well as all processes their personal data may be used in.(ETSI 5.14) | 4 | 1 |
 | C.3.5 | The user is informed about how to express consent (opt-in choice) to the different processes their personal data may be a part of.(ETSI 5.14) | 3 | 1 |
-| C.3.6 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 | 1 |
+| C.3.6 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 | 4 |
 | C.3.7 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 1 |
 | C.3.8 | Data collected is kept within the EU/EØS in countries that follow GDPR. | 2 | 4 |
 | C.3.9 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given. | 4 | 2 |
@@ -90,7 +90,7 @@ c.2.6: No desicribtion was found.
 
 #### Reasoning for value of implementation
 C.3.3: User must - "specifically requested to be removed from our databases" https://eu.dlink.com/no/nb/privacy
-
+c.3.6: No answer for two month from given email adress.
 C.3.8: Data is transmitted to Google and Salesforce located in USA
 
 C.3.9: Response for request of data has yet to be confirmed
@@ -99,7 +99,7 @@ C.3.9: Response for request of data has yet to be confirmed
 ### D1: Updating and support
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
-| D.1.1 | Support period of the device is public available and a 5 years with updates after sale(Andrij) | 2 | 2 |
+| D.1.1 | Support period of the device is public available and a 5 years with updates after sale. | 2 | 2 |
 | D.1.2 | The device looks for updates and initiate updates when first enabled if there is a new update (ETSI 5.3) | 3 | 1 |
 | D.1.3 | Software updates are automatically and periodically checked and initiated. It is recommended to give the user the ability to manually check and install updates. (ETSI 5.3) | 4 | 1 |
 | D.1.4 | The user is notified about critical security-updates (ETSI 5.3) | 2 | 1 |
@@ -134,7 +134,7 @@ D.1.6: There are four open ports on the device, none that are found to be vulner
 
 ## Risk matrix
 In the matrix below have we just put the points that stands out, and where basic updates can be done: 
-![image](https://user-images.githubusercontent.com/76153202/161736425-0d3373d7-b85c-4c1b-9c91-13f24cb5a351.png)
+![image](https://user-images.githubusercontent.com/76153202/167354859-07bf24f0-f8aa-4c7d-b271-ec23bd00aaf9.png)
 ## Conclusion
 
 In regards to usage of personal data D-link has not implemented a simple functionality for the user to erase their data in a simple manner. When contacting the norwegian GDPR-comitee of D-link, no response has yet to arrive (25 days as of writing).  
