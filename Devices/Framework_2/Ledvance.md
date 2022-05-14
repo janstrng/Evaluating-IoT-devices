@@ -1,4 +1,4 @@
-##Ledvance Smart+ WiFi Plug inndoor
+## Ledvance Smart+ WiFi Plug inndoor
 
 ![image](https://user-images.githubusercontent.com/76153202/161020338-8ae8ffc3-21d7-48c1-9091-7c30e929f8f9.png)
 
