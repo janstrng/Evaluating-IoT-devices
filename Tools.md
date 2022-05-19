@@ -18,8 +18,8 @@ In our opinion the ideal setup would include the following:
 
 ## Kali Linux
 ![kali](https://user-images.githubusercontent.com/98017528/159913136-72ea965a-3430-41c5-932d-ab37b8b7999e.png)
-“Kali Linux (formerly known as BackTrack Linux) is an open-source, Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali Linux contains several hundred tools targeted towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.” (https://www.kali.org/docs/introduction/what-is-kali-linux/)
-We chose Kali as it would include most tools we would need to perform tests and monitor the devices. Creating a bootable USB with the platform (https://www.kali.org/docs/usb/live-usb-install-with-windows/), we would have easy access to all of our tools without a designated linux machine.
+“Kali Linux (formerly known as BackTrack Linux) is an open-source, Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali Linux contains several hundred tools targeted towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.” [^1]
+We chose Kali as it would include most tools we would need to perform tests and monitor the devices. Creating a bootable USB with the platform [^2], we would have easy access to all of our tools without a designated linux machine.
 
 ## Nmap
 “Nmap is a utility for network exploration or security auditing.” (https://www.kali.org/tools/nmap/#nmap)
@@ -53,7 +53,7 @@ Using burp suite we can analyze the packets that are being sent towards relevant
 In our case we found a web-server on a device hosting an API towards the device. We could then use proxy and interception see how the web-requests were structured and how requests were sent.
 
 ## Binwalker
-"Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images." [^1] 
+"Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images." [^3] 
 Given that the firmware of the device is available, binwalker can be used to inspect the embedded files for hardcoded values associated with authentication. 
 ![binwalk](https://user-images.githubusercontent.com/98017528/159920094-c4717241-90d2-43e0-933a-fbefe1d6b4de.png)
 
@@ -67,7 +67,7 @@ From there we can extract known file types:
 Going into the extracted file (formated as "_filename.extracted") we found ourself limited to what we could find due to encrypted zip-files and non-humanreadable text, witch might indicate a level of protection and security.
 
 ## Ettercap
-"Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." [^2]. 
+"Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." [^4]. 
 ![ettercap](https://user-images.githubusercontent.com/98017528/159920102-4bead2dd-4aba-403d-a41e-f9cf35d97fcf.png)
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
@@ -77,10 +77,12 @@ The way we used Ettercap was with arp poisoning, and then used Wireshark and the
 NB! Ettercap is only compatible with Linux based OS.
 
 ## SQL injection
-Testing the application for SQL-vulnerabilities we attempted injecting the text-fields of the login-page, checking for common SQL strings such that are found here: [W3schools] (https://www.w3schools.com/sql/sql_injection.asp/) 
+Testing the application for SQL-vulnerabilities we attempted injecting the text-fields of the login-page, checking for common SQL strings such that are found here: [W3schools](https://www.w3schools.com/sql/sql_injection.asp/) 
 If ending up, getting an SQL-error or actually succeeding logging in, will result in a fail for the application.
 Not finding anything that indicates the application to be vulnerable, such as wrong credentials- or format-message, passes the test on point A.4 and  A.5.
 
 Scource:
-[^1]: https://www.kali.org/tools/binwalk/
-[^2]: https://www.ettercap-project.org/
+[^1]: https://www.kali.org/docs/introduction/what-is-kali-linux/
+[^2]: https://www.kali.org/docs/usb/live-usb-install-with-windows/
+[^3]: https://www.kali.org/tools/binwalk/
+[^4]: https://www.ettercap-project.org/
