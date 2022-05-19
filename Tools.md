@@ -43,7 +43,7 @@ Using wireshark on the computer running a hotspot, we would be able to see the t
 In most of our tests, we found that the packages had been encrypted, mostly by the use of Transport Layer Security (TLS).
 
 
-Wireshark works on all common operating systems. That gives us flexibility, and another reason as to why we chose to use it.
+Wireshark works on all the common operating systems[^3]. That gives us flexibility, and another reason as to why we chose to use it.
 
 ## Burp Suite
 Burp Suite is a graphical tool that lets you test web applications.
@@ -53,7 +53,7 @@ Using burp suite we can analyze the packets that are being sent towards relevant
 In our case we found a web-server on a device hosting an API towards the device. We could then use proxy and interception see how the web-requests were structured and how requests were sent.
 
 ## Binwalker
-"Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images." [^3] 
+"Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images." [^4] 
 Given that the firmware of the device is available, binwalker can be used to inspect the embedded files for hardcoded values associated with authentication. 
 ![binwalk](https://user-images.githubusercontent.com/98017528/159920094-c4717241-90d2-43e0-933a-fbefe1d6b4de.png)
 
@@ -67,7 +67,7 @@ From there we can extract known file types:
 Going into the extracted file (formated as "_filename.extracted") we found ourself limited to what we could find due to encrypted zip-files and non-humanreadable text, witch might indicate a level of protection and security.
 
 ## Ettercap
-"Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." [^4]. 
+"Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis." [^5]. 
 ![ettercap](https://user-images.githubusercontent.com/98017528/159920102-4bead2dd-4aba-403d-a41e-f9cf35d97fcf.png)
 
 We were recommended Ettercap by our supervisor as a great tool to use for MitM attacks. 
@@ -84,5 +84,6 @@ Not finding anything that indicates the application to be vulnerable, such as wr
 Scource:
 [^1]: https://www.kali.org/docs/introduction/what-is-kali-linux/
 [^2]: https://www.kali.org/docs/usb/live-usb-install-with-windows/
-[^3]: https://www.kali.org/tools/binwalk/
-[^4]: https://www.ettercap-project.org/
+[^3]: https://www.wireshark.org/
+[^4]: https://www.kali.org/tools/binwalk/
+[^5]: https://www.ettercap-project.org/
