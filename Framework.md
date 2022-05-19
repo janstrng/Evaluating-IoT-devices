@@ -1,4 +1,4 @@
-# Framework for evaluating IoT-devices 
+# Framework for cyberneticist- and privacy evaluation of IoT devices
 
 ## Background  
 This framework is a part of a Bachelor thesis from NTNU and is based on criterias from "*[ETSI TS 103 701; Cyber Security for Consumer Internet of Things: Conformance Assessment of Baseline Requirements](https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/01.01.01_60/ts_103701v010101p.pdf)*", criterias we found relevant from the *[General Data Protection Regulation (GDPR)](https://gdpr.eu/)* as well as "*[Enisa; Guidelines for securing the Internet of Things](https://www.enisa.europa.eu/publications/guidelines-for-securing-the-internet-of-things)*".  
@@ -8,7 +8,7 @@ The framework is a method to evaluate IoT devices aimed for stores providing the
 We have during development based the framework on devices with basic funcitonalities that is commonly found in households. These devices are commonly connected with Wifi and process data by communicating with an external server. The devices make use of and collect telemetric data from sensors such as thermometer, cameras, microphones and electric meter.
 
 ## Limitations
-The framework is not a methodology of how to performe a penetration-test or find new vulnerabilities in IoT-devices. The main goal is to get an indication of how security has been taken into consideration in regards to the end-user by the provider. The framework does not replace GDPR or other requirements, but is a suggestion for users and vendors, with limited resources, of how to evaluate the security of an IoT-device with the use of open source resources and tools.  
+The framework is not a methodology of how to perform a penetration-test or find new vulnerabilities in IoT-devices. The main goal is to get an indication of how security has been taken into consideration in regards to the end-user by the provider. The framework does not replace GDPR or other requirements, but is a suggestion for users and vendors, with limited resources, of how to evaluate the security of an IoT-device with the use of publically available resources and tools.  
 The framework does not include criteria for implementation of functionalities and will not make use of methods that require specialized knowledge such as code-reviewing and vulnerability-hunting/ research.
 The main focus of the framework are for devices that primarily use Wifi as a method of communication, thus other protocols such as Zigbee and Z-wave have been left out of the scope.
 
@@ -19,15 +19,15 @@ You use the framework by taking one device at a time and going through the point
 
 ### Threat actors
 ![threatActorPyramid](https://user-images.githubusercontent.com/98017528/160378034-b47ff81d-0e7d-4f78-a7e0-0fda6a39c8bf.jpeg)  
-(https://www.telenor.com/security-architecture-design-phase-the-concept-of-a-threat-intelligence-driven-defendable-architecture/)  
+[^1]
 Defining and identifying the threat-actors we stand up against, we make use of the thret actor pyramid.  
 The pyramid split the actors into six tiers.
 - Tier 1: Script Kiddies and Non-Malicious actors;  
 Have limited capabilities, tools, resources and knowledge. Techniques are usualy gathered from resources on the internet, and may therefore be able to use sophisticated tools to gain access.
 - Tier 2: Criminals, Insider threats;  
-Actor with a maliicous motive to do damage. Mostly limited resorces and numbers, able to make use of known exploits and techniques.
+Actor with a malicous motive to do damage. Mostly limited resorces and numbers, able to make use of known exploits and techniques.
 - Tier 3: Crime groups and hacktivists;  
-Actors that operate in groups and have access to unknown vulnerabilities and exploits. Often political or knowledge-based motives. Has resources to performe Distributed-Denial-of-Service.
+Actors that operate in groups and have access to unknown vulnerabilities and exploits. Often political motives or motives based on knowledge. Has resources to performe Distributed-Denial-of-Service.
 - Tier 4: Organized Crime groups, Cyber Mercenaries;  
 Actors with access to extensive tools and experience. Make use of actions such as ransomware or theft to achive profit. Targets big business-related information and documentation that could be of interest or be sold.
 - Tier 5: State Sponsored;  
@@ -175,7 +175,7 @@ The values of implementation indicate how the criteria has actually been taken i
 
  ### Reasoning for Value of implementation 
  
-Under every table in should put your reasoning for every criteria that don't is 1 for value of implementation. This will keep the tables clean and simple to read. You should put a refference to which criteria you are talking about. 
+Under every table in the framework, you should put your reasoning for every criteria that do not have 1 as value of implementation. This will keep the tables clean and simple to read. You should put a reference to which criteria you are talking about. 
  <br>
  EXAMPLE:<br>
  B.1.6: Password only required 6 characters, with a combination of letters and number. With no requirement on big or small letters
@@ -184,21 +184,23 @@ Under every table in should put your reasoning for every criteria that don't is 
 
 ### Scoring system
 
-The scoring system we choose to use for evaluating the IoT devices will be an qualitative risk matrix. There is a few reasons why we have chosen this excact method of evaluting the results. Here are some important points with the risk matrix:
-- We have used the risk matrix multiple times before with success. We find it easy to understand, and very useful.
+The scoring system we choose to use for evaluating the IoT devices will be an qualitative risk matrix. There is a few reasons this is the this excact method of evaluting the results. Here are some important points with the risk matrix [^2] :
+- The group have used the risk matrix multiple times earlier with success, and find it useless, and easy to use.
 - The matrix identifies project risks
-- The matrix shows, and identifies the risk criteria without any unnecessary advanced method
+- The matrix shows, and identifies the risk criteria without any unnecessarily advanced methods
 - Shows every identified risk criteria in a simple and understandable way 
-- We know that the risk matrix is a subjective method of evaluation, because the implementer has to give a value that they feels is correct. Therefore every point should have an explenation on why they get the 'value of implementation.'
-- With this method we will be able to put in every point of the framework in to the matrix to see which point of the framework every device needs to improve. 
+- The group knows that the risk matrix is a subjective method of evaluation, because the implementer has to give a value that they feels is correct. Therefore every point should have an explenation on why they get the 'value of implementation.'
+- With this method will the group be able to put in every point of the framework in to the matrix to see which point of the framework every device needs to improve. [^3] 
  
-(Source: https://www.safran.com/content/introduction-qualitative-risk-analysis).
- 
-(Source: https://www.microtool.de/en/knowledge-base/what-is-a-risk-matrix/)
  <br>
  <br>
 ![image](https://user-images.githubusercontent.com/76153202/167355043-6a55b45b-a883-4f14-9088-2120b8006c13.png)
 
-For our risk scoring have we chosen 'value of consequence' * 'value of implementation'. We have then concluded that every score over 12 will be categorized as 'RED', every score under 4 as 'GREEN', and everything between as 'Yellow'. A 'GREEN' score means that there is a low risk of security, a 'YELLOW' score will be a medium risk of security, and a 'RED' score is a high risk in security.
+For the scoring system have th egroup chosen 'value of consequence' * 'value of implmentation'. The conclution that have been made is that every score over 12 will be catergorized as 'RED', every score under 4 as 'GREEN', and every value between scores as 'Yellow'. A 'GREEN' score shows that there is a low value of risk for security, a 'YELLOW' score will have a medium risk of security, and a 'RED' score show a high risk of security.
 
+Scoure:
+[^1]: https://www.telenor.com/security-architecture-design-phase-the-concept-of-a-threat-intelligence-driven-defendable-architecture/
 
+[^2]:  https://www.safran.com/content/introduction-qualitative-risk-analysis
+ 
+[^3]: https://www.microtool.de/en/knowledge-base/what-is-a-risk-matrix/
