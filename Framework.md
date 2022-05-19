@@ -19,7 +19,8 @@ You use the framework by taking one device at a time and going through the point
 
 ### Threat actors
 ![threatActorPyramid](https://user-images.githubusercontent.com/98017528/160378034-b47ff81d-0e7d-4f78-a7e0-0fda6a39c8bf.jpeg)  
-[^1]
+Pyramid of threat actors[^1]
+
 Defining and identifying the threat-actors we stand up against, we make use of the thret actor pyramid.  
 The pyramid split the actors into six tiers.
 - Tier 1: Script Kiddies and Non-Malicious actors;  
@@ -194,7 +195,7 @@ The scoring system we choose to use for evaluating the IoT devices will be an qu
  
  <br>
  <br>
-![image](https://user-images.githubusercontent.com/76153202/167355043-6a55b45b-a883-4f14-9088-2120b8006c13.png)
+![image](https://user-images.githubusercontent.com/76153202/169229726-4ea577c0-ed62-4a36-9c78-ba3ef9d0b377.png)
 
 For the scoring system have th egroup chosen 'value of consequence' * 'value of implmentation'. The conclution that have been made is that every score over 12 will be catergorized as 'RED', every score under 4 as 'GREEN', and every value between scores as 'Yellow'. A 'GREEN' score shows that there is a low value of risk for security, a 'YELLOW' score will have a medium risk of security, and a 'RED' score show a high risk of security.
 
