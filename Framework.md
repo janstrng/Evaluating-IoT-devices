@@ -193,8 +193,7 @@ The scoring system we choose to use for evaluating the IoT devices will be an qu
 - The group knows that the risk matrix is a subjective method of evaluation, because the implementer has to give a value that they feels is correct. Therefore every point should have an explenation on why they get the 'value of implementation.'
 - With this method will the group be able to put in every point of the framework in to the matrix to see which point of the framework every device needs to improve. [^3] 
  
- <br>
- <br>
+ 
 ![image](https://user-images.githubusercontent.com/76153202/169229726-4ea577c0-ed62-4a36-9c78-ba3ef9d0b377.png)
 
 For the scoring system have th egroup chosen 'value of consequence' * 'value of implmentation'. The conclution that have been made is that every score over 12 will be catergorized as 'RED', every score under 4 as 'GREEN', and every value between scores as 'Yellow'. A 'GREEN' score shows that there is a low value of risk for security, a 'YELLOW' score will have a medium risk of security, and a 'RED' score show a high risk of security.
