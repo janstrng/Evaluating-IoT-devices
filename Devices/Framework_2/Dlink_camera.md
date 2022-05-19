@@ -84,7 +84,7 @@ c.2.6: No desicribtion was found.
 | C.3.6 | The user shall be provided with all the data the controller/company has of the user within one month from the receipt (GDPR 12) | 4 | 4 |
 | C.3.7 | The users shall be informed if data is transferred to a third country or an international organization.(GDPR 15) | 4 | 1 |
 | C.3.8 | Data collected is kept within the EU/EØS in countries that follow GDPR. | 2 | 4 |
-| C.3.9 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given. | 4 | 2 |
+| C.3.9 | Communication with the company is adequate for the request that is made. A confirmation of receival of a request is given. | 4 | 4 |
 | C.3.10 | Privacy policy, user agreement and other relevant documentation is easy to find and contains all relevant information to the user. | 4 | 1 |
 
 
