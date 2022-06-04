@@ -97,7 +97,7 @@ The values of implementation indicate how the criteria has actually been taken i
 | B.1.6 | Password is recommended to be at least 8 characters and consists of at least one character from each character group. (big letters, small letters and numbers)  (ETSI 5.4) | 4 |  |
 | [B.1.7](https://github.com/janstrng/Evaluating-IoT-devices/blob/main/Method.md#b17-administratoruser-gets-notifies-about-newunauthorized-changes-in-device-software-etsi-57) | Administrator/user gets notifies about new/unauthorized changes in device software (ETSI 5.7) | 3 |  |
  
-### B2: Security and communication 
+### B2: Communication 
 | Nr | Criterias | Value of consequence | Value of implementation |
 | ----------- | ----------- | ----------- | ----------- |
 | B.2.1 | Communication of personal and sensitive data use best practice cryptographic.(ETSI 5.8) | 4 |  |
